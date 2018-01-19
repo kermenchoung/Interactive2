@@ -19,7 +19,7 @@ body {
 
 .item {
 	height: 300px;
-	width: 300px;
+	width: 50%;
 	background: blue;
 	color: yellow;
 
