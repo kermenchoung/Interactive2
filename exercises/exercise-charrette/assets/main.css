@@ -18,9 +18,9 @@ body {
 /* items */
 
 .item {
-	height: 300px;
-	width: 50%;
-	background: blue;
+	height: 100px;
+	width: 30%;
+	background: brown;
 	color: yellow;
 
 	/*margin: 10px;
@@ -36,7 +36,7 @@ body {
 
 }
 #button-1 {
-	background-color: PapayaWhip;
+	background-color: black;
 }
 
 #button-1:hover {
@@ -52,7 +52,7 @@ body {
 
 /* example buttons */
 #button-2:{
-	background-color: AquaMarine;
+	background-color: red;
 }
 
 /*#button-2::after {
@@ -68,4 +68,8 @@ body {
 #button-2:hover::before {
 	content: 'this text changes on hover';
 	color: purple;
+}
+
+#button-3:{
+	background-color: yellow;
 }
