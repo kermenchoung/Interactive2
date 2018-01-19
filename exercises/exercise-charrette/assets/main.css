@@ -23,7 +23,7 @@ body {
 	background: blue;
 	color: yellow;
 
-	margin: 10px;
+	/*margin: 10px;
 
 	/* comment out 'float: left;' to have items stack in a single column */
 	float: left; 
@@ -32,11 +32,17 @@ body {
 	/* transition: all 500ms ease; */
 }
 
-/* example buttons */
+/* example buttons */#button-1 {
+
+}
+#button-1 {
+	background-color: PapayaWhip;
+}
 
 #button-1:hover {
-	transform: rotate(90deg) scale(1.5);
-	opacity: .3;
+	transform: rotate(45deg) scale(.5);
+	opacity: .8;
+	background: green;
 }
 
 #button-1:active {
