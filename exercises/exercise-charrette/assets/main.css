@@ -40,9 +40,9 @@ body {
 }
 
 #button-1:hover {
-	transform: rotate(45deg) scale(.5);
+	transform: rotate(45deg) scale(.5); translate(50px, 100px);
 	opacity: .8;
-	background: green;
+	background-color: green;
 }
 
 #button-1:active {
