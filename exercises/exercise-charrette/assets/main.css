@@ -40,7 +40,7 @@ body {
 }
 
 #button-1:hover {
-	transform: rotate(45deg) scale(.5); translate(50px, 100px);
+	transform: rotate(90deg) scale(1.5); translate(50px, 100px);
 	opacity: .8;
 	background-color: green;
 }
@@ -51,14 +51,21 @@ body {
 }
 
 /* example buttons */
+#button-2:{
+	background-color: AquaMarine;
+}
 
-#button-2::after {
+/*#button-2::after {
 	content: 'this is added after the content inside the button';
+	color: white;
+}
+*/
+#button-2::before {'this text is coming from the CSS';
 	color: white;
 }
 
 
-#button-2:hover::after {
+#button-2:hover::before {
 	content: 'this text changes on hover';
-	color: red;
+	color: purple;
 }

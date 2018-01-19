@@ -6,7 +6,7 @@ $(document).ready(function(){
 			marginLeft: '0.6in',
 			fontSize: '24px',
 			borderWidth: '10px'
-		}, 1000 );
+		}, 3000 );
 	});
 
 });
