@@ -26,7 +26,7 @@ body {
 	/*margin: 10px;
 
 	/* comment out 'float: left;' to have items stack in a single column */
-	float: left; 
+	/*float: left; 
 
 	/* uncomment this to get CSS transitions (conflicts with jQuery) */
 	/* transition: all 500ms ease; */
@@ -36,7 +36,7 @@ body {
 
 }
 #button-1 {
-	background-color: black;
+	background-color:BlueViolet ;
 }
 
 #button-1:hover {
@@ -45,14 +45,14 @@ body {
 	background-color: green;
 }
 
-#button-1:active {
+/*#button-1:active {
 	background: pink;
 	opacity: 1;
 }
 
 /* example buttons */
 #button-2:{
-	background-color: red;
+	color: IndianRed;
 }
 
 /*#button-2::after {
@@ -73,3 +73,22 @@ body {
 #button-3:{
 	background-color: yellow;
 }
+#button-4:{
+	background-color: black;
+}
+#button-4:hover {
+	transform: rotate(90deg); translate(50px, 100px);
+	opacity: .8;
+	background-color: grey;
+}
+
+#button-5:{
+	background-color: pink;
+}
+#button-5:hover {
+	transform: skewX(10deg); 
+	opacity: 10;
+	background-color: grey;
+}
+
+
