@@ -7,6 +7,32 @@
     border: 1px solid #000000;
 }
 
+.box {
+    width: 1000px;
+    height: 800px;
+    
+    background: white transparent;
+    position: absolute;
+    border: 1px transparent #000000;
+}
+
+
+/*#button-19{
+    background: gray;
+}
+
+.random2a{
+    animation: random2a 6s infinite;
+}
+@keyframes random2a{
+    
+    75%{
+        background: yellow;
+        transform: rotate(190deg) translate(0px,10px);
+    }
+}*/
+
+
 .square {
     width: 700px;
     height: 800px;
@@ -40,7 +66,14 @@
     position: absolute;
     top: 260px;
     left: 450px;
+    transition: all .3s ease-in-out;
 }
+
+#circle:hover {
+  border-radius:0;  
+  cursor: pointer;
+}
+
 
 #triangle-right {
     width: 0;
@@ -55,12 +88,17 @@
     left: 210px;
     z-index: 11;
 }
-#triangle-right:hover{
+/*#triangle-right:hover{
     transform: rotate(45deg)translate(100px, 20px);
     
     
+*/
+
+#triangle-right:hover{
+    transform: rotate(45deg)translate(100px, 20px);
 }
 
+    
 #rectangle {
     width: 30px;
     height: 75px;
@@ -68,6 +106,7 @@
     position: absolute;
     top: 560px;
     left: 250px;
+     z-index: 11;
 }
 
 #rectangle1 {
@@ -123,6 +162,52 @@
     z-index: 11;
 }
 
+#triangle-small1 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 150px solid red;
+    border-bottom: 20px solid transparent;
+ 
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    z-index: 11;
+}
+
+#triangle-small1:hover{
+    transform: translate(100px, 50px);
+}
+
+#triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 150px solid red;
+    z-index:11;
+    transform: rotate(100deg);
+    position: absolute;
+    top: 550px;
+    left: 100px;
+
+}
+
+#triangle2:hover{
+    
+    transform: rotate(45deg) scale(1.5);
+}
+
+
+
+#button-1:active {
+	background: pink;
+	opacity: 1;
+}
+
+
+
 #rectangle5{
     width: 40px;
     height: 8px;
@@ -157,7 +242,7 @@
 } 
 
 
-#poem {
+.poem {
     width: 194px;
     height: 180px;
     background: transparent;
@@ -168,6 +253,8 @@
     transform: rotate(-30deg);
 }
 
+
+
 p {
     color: dimgrey;
     font-family:DDT;
@@ -177,6 +264,30 @@ p {
     text-align: justify;
 }
 
+.typewriter p {
+  overflow: hidden; 
+  border-right: .15em orange transparent; 
+  white-space:normal; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: ; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end ;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+/* 
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+*/
+
 #name {
     width: 250px;
     height: 45px;
@@ -184,14 +295,130 @@ p {
     position: absolute;
     top: 90px;
     left: 40px;
-    z-index: 10;
+    z-index: 12;
     transform: rotate(32deg);
 }
 
+#name1 {
+    width: 250px;
+    height: 45px;
+    background: trasparent;
+    position: absolute;
+    top: 380px;
+    left: 80px;
+    z-index: 12;
+    transform: rotate(25deg);
+}
+#name2 {
+    width: 250px;
+    height: 45px;
+    background: trasparent;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    z-index: 12;
+    transform: rotate(28deg);
+}
+#name3 {
+    width: 170px;
+    height: 45px;
+    background: white;
+    position: absolute;
+    top: 700px;
+    left: 820px;
+    z-index: 12;
+    transform: rotate(28deg);
+}
+
+
 h1 {
     font-family:DDT;
-  
-    font-size: 36px;
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
 }
+
+.text {
+ 
+  opacity: 0;
+  text-align: center;
+  padding-top: 0px;
+  transition: all .3s ease-in-out;
+}
+
+
+/*.circle2 {
+  background: url(https://d13yacurqjgara.cloudfront.net/users/212457/screenshots/2212523/yo.jpg) #000;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  
+}
+*/
+
+#circle2 {
+  background:red;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+z-index: 12;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#circle3 {
+  background:red;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+z-index: 12;
+    position: absolute;
+    top: 200px;
+    left: 900px;
+}
+
+
+.box:hover .text {
+  padding-top: 0px;
+  opacity: 1;
+}
+
+
+
+
+
+#rectanglea{
+    width: 100px;
+    height: 20px;
+    background: black;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    z-index: 11;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

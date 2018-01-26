@@ -27,34 +27,6 @@ $(function() {
     });
 
 $(function() {
-      var animationName = 'animated zoomIn';
-      var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-
-      $('#circle2').on('click',function() {
-        
-        $('#circle').addClass(animationName).one(animationend,function() {
-          $(this).removeClass(animationName);
-        });
-
-      });
-
-    });
-
-$(function() {
-      var animationName = 'animated zoomIn';
-      var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-
-      $('#circle2').on('click',function() {
-        
-        $('#triangle-right').addClass(animationName).one(animationend,function() {
-          $(this).removeClass(animationName);
-        });
-
-      });
-
-    });
-
-$(function() {
       var animationName = 'animated slideOutRight';
       var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
@@ -67,18 +39,3 @@ $(function() {
       });
 
     });
-
-$(function() {
-      var animationName = 'animated hinge';
-      var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-
-      $('#circle3').on('click',function() {
-        
-        $('#rectanglea, #rectangle5, #rectangle6').addClass(animationName).one(animationend,function() {
-          $(this).removeClass(animationName);
-        });
-
-      });
-
-    });
-
