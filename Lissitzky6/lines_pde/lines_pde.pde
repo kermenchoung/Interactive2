@@ -10,6 +10,8 @@
  * s                   : save png
  * p                   : save pdf
  */
+ 
+ /* @pjs preload="pic.png"; */
 
 import processing.pdf.*;
 import java.util.Calendar;
@@ -23,7 +25,7 @@ int drawMode = 1;
 void setup() {
   size(1000, 800); //size should be multiple of img width and height
   smooth();
-  img = loadImage("pic.png");
+  img = loadImage("images/pic.png");
   println(img.width+" x "+img.height);
 }
 
@@ -34,7 +36,7 @@ void draw() {
 
   float mouseXFactor = map(mouseX, 0,width, 0.05,1);
   float mouseYFactor = map(mouseY, 0,height, 0.05,1);
-  int skip = 8;
+  int skip = 5;
 
   for (int gridX = 0; gridX < img.width; gridX+=skip) {
     for (int gridY = 0; gridY < img.height; gridY+=skip) {
