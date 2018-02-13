@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    
+<title>INCLUDING Processing.JS IN WEBPAGES</title> 
+
+</head>
+<body>
+<p align="center"> 
+     
+<canvas id="mycanvas"></canvas> 
+  
+    
+</p>
+ </body>
+<script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+
+<script>
+  
+var sketchProc = function(processingInstance) {
+     
+with (processingInstance) {
+        
+ size(800, 400);
+    
+
+        
+// WRITE YOUR PROGRAM CODE HERE  
+
+
+
+
+
+
+
+draw=function() {
+ 
+  
+  colorMode(HSB, width, height, 100);
+
+  stepX = mouseX+2;
+  stepY = mouseY+2;
+  for (int gridY=0; gridY<height; gridY+=stepY){
+    for (int gridX=0; gridX<width; gridX+=stepX){
+      fill(gridX, height-gridY, 100);
+      rect(gridX, gridY, stepX, stepY);
+    }
+  }
+
+ 
+};
+
+
+ 
+
+  
+
+  
+
+
+//YOUR JS PROGRAM CODE ENDS HERE.
+}};  
+// Get the canvas that Processing-js will use
+    
+var canvas = document.getElementById("mycanvas"); 
+  
+  // Pass the function sketchProc (defined in myCode.js) to Processing's constructor.
+    
+var processingInstance = new Processing(canvas, sketchProc); 
+
+ </script>
+
+
+</html>
