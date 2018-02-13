@@ -24,26 +24,15 @@ with (processingInstance) {
         
  size(1000, 800);
         
-// WRITE YOUR PROGRAM CODE HERE 
+// WRITE YOUR PROGRAM CODE HERE  
     
-    
-
- /* @pjs preload="pic.png"; */
-
-
+/* @pjs preload="pic.png"; */
 
 PImage img;
-int drawMode = 1;
+int drawMode = 5;
 
-
- 
-   //size should be multiple of img width and height
-  smooth();
-  img = loadImage("images/pic.png");
-  println(img.width+" x "+img.height);
-
-
-
+img = loadImage("images/pic.png");
+    
 draw=function() {
 
   background(255);
@@ -82,38 +71,21 @@ draw=function() {
         line(posX-d1, posY+d1, posX+tileWidth-d2, posY+d2);
         break;
       
-      
-    
-       
-      }
+     }
 
     }
   }
-
-  
-
-
-
-void keyReleased() {
-  
-
- 
-  if (key == '5') drawMode = 5;
-  
-  
-}
-
-
-// timestamp
-
-    
-    
-    
-    
 };
 
 
 
+
+
+
+
+
+
+]
 
 //YOUR JS PROGRAM CODE ENDS HERE.
 }};  
