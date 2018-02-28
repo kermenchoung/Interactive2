@@ -21,28 +21,14 @@ body {
 	left: 60px;
 }
 
-square {
-	width: 150px;
-	height: 150px;
-	background: red;
-	top: 203px;
-	left: 270px;
-	position: absolute;
+
 
 	/* uncomment to add keyframe animation */
 	/* animation: spin 2s infinite; */
 
-}
 
-#circle {
-	width: 150px;
-	height: 150px;
-	background: blue;
-	border-radius: 150px;
-	top: 203px;
-	left: 480px;
-	position: absolute;
-}
+
+
 
 #trapezoid {
 	border-bottom: 160px solid red;
@@ -50,12 +36,11 @@ square {
 	border-right: 20px solid transparent;
 	height: 0;
 	width: 80px;
-  top: 203px;
+  top: 250px;
   left: 270px;
   position:absolute;
   
-}	
-
+}
 #vase {
         display: block;
         position: absolute;
@@ -65,16 +50,12 @@ square {
         height:300px;
         background-color: green;
         z-index: 1;
-      border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+      border-radius: 100px 50px 50px 50px / 108px 108px 72px 72px;
         border-radius: 30% 60 30% 50% /30% 70 30% 30%;
     }
-
-
-
-
 #tv {
   position: relative;
-  width: 40px;
+  width: 35px;
   height: 150px;
   margin: 20px 0;
   background: red;
@@ -94,29 +75,19 @@ square {
   border-radius: 10% / 10%;
 }
 
+.bottom{
+  top: 100px;
+	left: 200px;
+  position:absolute:
+  width:100px;
+  height:400px;
+  
+background: blue;
+}
+    
+  
+}
 #tv1 {
-  position: relative;
-  width: 150px;
-  height: 40px;
-  margin: 20px 0;
-  background: red;
-  border-radius: 20% / 20%;
-  color: white;
-  text-align: center;
-  text-indent: .1em;
-}
-#tv1:before {
-  content: '';
-  position: absolute;
-  top: 3%;
-  bottom: 5%;
-  right: -10%;
-  left: -10%;
-  background: inherit;
-  border-radius: 10% / 10%;
-}
-
-#tv2 {
   position: relative;
   width: 110px;
   height: 30px;
@@ -129,7 +100,7 @@ square {
   top: 203px;
 	left: 690px;
 }
-#tv2:before {
+#tv1:before {
   content: '';
   position: absolute;
   top: 10%;
@@ -140,16 +111,9 @@ square {
   border-radius: 5% / 5%;
 }
 
-.bottom{
-  top: 10px;
-	left: 20px;
-  position:relative;
-  width:50px;
-  height:150px;
-  
-background: blue ;
-}
 
+
+					
 
 
 

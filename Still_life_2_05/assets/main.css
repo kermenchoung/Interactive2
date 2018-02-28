@@ -1,0 +1,98 @@
+body {
+	background: #cccccc;
+  padding: 10px;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 0px auto;
+	background: white;
+	position: relative;
+}
+
+#rectangle1 {
+	width: 100px;
+	height: 280px;
+  background: grey;
+  top: 5px;
+  left: 40px;
+  position:relative;
+}
+
+#cup{
+	border-bottom: 160px solid black;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 80px;
+  top: 250px;
+  left: 270px;
+  position:absolute;
+
+  
+}
+
+.trapezoid_top {
+  height: 0;
+	width: 40px;
+  position: relative;
+  margin: 0px auto;
+  border-bottom: 55px solid red;
+  border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+  border-radius:  50% 50%  30%  30%; 
+}
+    
+  
+.trapezoid_bottom {
+  height: 0;
+	width: 40px;
+  border-bottom: 55px solid pink;
+  border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+  border-radius:  50% 50%  30%  30%; 
+  transform: rotate(180deg);
+  /*top: 158px;
+  left: 680px;*/
+  
+}
+
+.rectangle {
+	width: 100px;
+	height: 70px;
+  background: green;
+  border-radius: 10px;
+  position: relative;
+  margin: 0px auto;
+}
+
+
+	
+.bottle {
+  display: inline-block;
+  position: absolute;
+  top:50px;
+  left:580px;
+  width: 130px;
+  height:300px;
+  background: yellow;
+  border: 1px solid orange;
+ 
+}
+
+.bottle_top {
+  height: 60px;
+  width: 90px;
+  position: relative;
+  margin: 0px auto;
+  background:green;
+}
+
+
+ 
+
+
+
+
+

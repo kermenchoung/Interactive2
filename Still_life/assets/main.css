@@ -1,0 +1,153 @@
+body {
+  background: #cccccc;
+}
+
+.canvas {
+  width: 900px;
+  height: 556px;
+  margin: 0px auto;
+  background: white;
+  position: relative;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 150px solid yellow;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+#cup {
+  border-bottom: 160px solid red;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 80px;
+  top: 250px;
+  left: 270px;
+  position:absolute;
+  
+}
+
+#tv {
+  position: absolute;
+  width: 35px;
+  height: 150px;
+  margin: 20px 0;
+  background: green;
+  border-radius: 20% / 20%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+#tv:before {
+  content: '';
+  position: absolute;
+  top: 3%;
+  bottom: 5%;
+  right: -10%;
+  left: -10%;
+  background: inherit;
+  border-radius: 10% / 10%;
+}
+
+
+
+.bottle {
+
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  height: 400px;
+   z-index: 0;
+
+  
+
+  top: 203px;
+  left: 680px;
+
+}
+
+    
+
+#tv3 {
+  position: relative;
+  width: 110px;
+  height: 30px;
+  margin: 20px 0;
+  background: pink;
+  border-radius: 20% / 20%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+  top: 182px;
+  left: 690px;
+}
+#tv3:before {
+  content: 'kermen';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 5%;
+}
+    
+
+
+
+#trapezoidtop {
+  height: 0;
+  width: 40px;
+  border-bottom: 55px solid red;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-radius:  50% 50%  30%  30%; 
+  position:absolute;
+  top: 50px;
+  left: 680px;
+  
+}
+    
+  
+#trapezoidbottom {
+  height: 0;
+  width: 60px;
+  border-bottom: 170px solid red;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-radius:  50% 50%  30%  30%; 
+  transform: rotate(180deg);
+  position:relative;
+  top: 149px;
+  left: 680px;
+
+}
+
+
+
+#rectangle {
+  width: 120px;
+  height: 70px;
+  background: red;
+  border-radius: 10px;
+  position: absolute;
+  top: 92px;
+  left: 680px;
+
+
+ 
+}
+  
+
+ 
+
+ 
+ 
+
+
