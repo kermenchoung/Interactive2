@@ -5,18 +5,17 @@ body {
 .letter {
 	
 display: inline-block;
-  position:absolute;
+  position:relative;
   margin: 0px auto;
-  top:100px;
-  left:100px;
+  
   width: 300px;
-  height: 400px;
+  height: 300px;
   background: none;
   border: 1px solid blue;
 	
-
-	
 }
+
+
 
 .line1 {
 	width: 40px;
@@ -85,3 +84,248 @@ display: inline-block;
     margin: 0px auto;
     top: 180px;
 }
+
+
+.line01 {
+	width: 220px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px 0px;
+    top: 0px;
+
+}
+.line02 {
+	width: 190px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+  margin: 0px 0px;
+    top: 30px;
+
+}
+
+.line03 {
+	width: 160px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px 0px;
+    top: 60px;
+}
+
+.line04 {
+	width: 130px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px 0px;
+    top: 90px;
+}
+.line05 {
+	width: 160px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+ margin: 0px 0px;
+    top: 120px;
+}
+.line06 {
+	width: 190px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+   margin: 0px 0px;
+    top: 150px;
+}
+.line07 {
+	width: 220px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+  margin: 0px 0px;
+    top: 180px;
+}
+
+.line11 {
+	width: 40px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px auto;
+    top: 0px;
+
+}
+.line22 {
+	width: 70px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px auto;
+    top: 30px;
+
+}
+
+.line33 {
+	width: 100px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px auto;
+    top: 60px;
+}
+
+.line44 {
+	width: 130px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px auto;
+    top: 90px;
+}
+.line55 {
+	width: 90px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px auto;
+    top: 120px;
+}
+.line66 {
+	width: 70px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px auto;
+    top: 150px;
+}
+.line77 {
+	width: 40px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px auto;
+    top: 180px;
+}
+
+.line111 {
+	width: 40px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px 0px;
+    top: 0px;
+
+}
+.line222 {
+	width: 70px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+  margin: 0px 0px;
+    top: 30px;
+
+}
+
+.line333 {
+	width: 100px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px 0px;
+    top: 60px;
+}
+
+.line444 {
+	width: 130px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+    margin: 0px 0px;
+    top: 90px;
+}
+.line555 {
+	width: 90px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+ margin: 0px 0px;
+    top: 120px;
+}
+.line666 {
+	width: 70px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+   margin: 0px 0px;
+    top: 150px;
+}
+.line777 {
+	width: 40px;
+	height: 1px;
+	background: black;
+	border: 1px solid black;
+	position: relative;
+  margin: 0px 0px;
+    top: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
