@@ -1,0 +1,46 @@
+body{
+
+     font-family:DDT;
+        font-size: 16px;
+      line-height: 1.5em;
+      background-color: white;  
+    }
+    .main {
+      width: 50%;
+      margin: 100px auto;
+      padding: 50px;
+      /* border:1px solid #CCC; */
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 1.5em;
+    }
+ h2{
+      margin-top: 0;
+      font-size: 1.2em;
+    }
+
+     h3 {
+      margin-top: 0;
+      font-size: 1em;
+    }
+
+    a {
+      font-weight: bold;
+      color: #83B1CA;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color: #C1DFB3 ;
+    }
+
+    ul {
+      padding-left: 18px;
+      list-style: none;
+    }
+
+    ul li {
+      color: #CCC;
+    }

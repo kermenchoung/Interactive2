@@ -7,40 +7,132 @@ body {
   width: 900px;
   height: 556px;
   margin: 0px auto;
-  background: #ddd;
+  background: #e7d8c5;
   position: relative;
 }
 
-#magnifying-glass
-{
- font-size: 10em; /* This controls the size. */
- display: inline-block;
- width: 35px;
- height: 35px;
- border: 30px solid red;
- position: relative;
- border-radius: 0.4em;
-}
-  
+
+
 
 .tape{
-
-  
   display: inline-block;
   position: absolute;
   margin: 0px auto;
-  top:300px;
-  left:80px;
-  width: 230px;
-  height:200px;
+  top:350px;
+  left:220px;
+  width: 200px;
+  height:100px;
   background: none;
-  border: 1px solid transparent;
+
+  z-index: 2;
+transform: scale(1.5, 1,5);
+  /*transform: rotate(-90deg);*/
  
 }
 
 
 
+#magnifying-glass
+{
+ font-size: 10em; /* This controls the size. */
+ /*display: inline-block;*/
+ width: 35px;
+ height: 35px;
+ border: 30px solid purple;
+ position: relative;
+ border-radius: 0.4em;
 
+}
+  
+#trapezoid_tape {
+  width:63px;
+  height: 57px;
+background: purple;
+ /* border-top: 6px solid purple;
+  border-bottom: 6px solid purple;
+  border-left: 6px solid green;
+  border-right: 6px solid green;
+  border-radius: 0%  0% 40% 50%;*/
+  position: absolute;
+  top: 30px ;
+  left:68px;
+  transform:rotate(15deg);
+  border-radius: 50%  30% 80% 90%;
+  
+  
+}
+
+#circleup{
+  width:40px;
+  height:45px;
+  border-radius: 25px;
+  background: #e7d8c5;
+  position: absolute;
+margin: 0px auto;
+  top: 20px ;
+  left:85px;
+  transform: rotate(90deg);
+  
+  
+}
+
+#circledown{
+width:35px;
+  height:30px;
+  border-radius: 100px;
+  background: #e7d8c5;
+  position: absolute;
+margin: 0px auto;
+  top: 79px ;
+  left:73px;
+  z-index:4;
+
+
+}
+
+
+
+
+#moon {
+  width: 25px;
+  height: 30px;
+  border-radius: 20%;
+  box-shadow: 15px 15px 0 0 purple;
+  position: absolute;
+margin: 0px auto;
+  top: 40px ;
+  left:96px;
+  transform: rotate(37deg);
+
+ 
+}
+#moon1 {
+  width: 40px;
+  height:60px;
+  border-radius: 60%;
+  box-shadow: 10px 15px 0 0 purple;
+  position: absolute;
+margin: 0px auto;
+  top: 1px ;
+  left:91px;
+  transform: rotate(57deg);
+}
+#moon2 {
+  width: 15px;
+  height: 10px;
+  border-radius: 20%;
+  box-shadow: 10px 15px 0 0  #e7d8c5;
+  position: absolute;
+margin: 0px auto;
+  top:20px ;
+  left:120px;
+  transform: rotate(10deg);
+  z-index:4;
+
+ 
+ 
+}
+        
 
 
 
@@ -225,17 +317,23 @@ body {
     }
     
     .flower5 {
-        width: 300px;
+        width: 20px;
         height: 300px;
         position: absolute;
         top: 0px;
         left: 0px;
+   
+       -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        -o-transform: rotate(-10eg);
+      z-index:10;
     }
     
     .burst-8 {
-        background: purple;
-        width: 10px;
-        height: 10px;
+        background: #b45ed8;
+        width: 20px;
+        height: 20px;
         position: relative;
         text-align: center;
         -webkit-transform: rotate(20deg);
@@ -243,6 +341,7 @@ body {
         -ms-transform: rotate(20deg);
         -o-transform: rotate(20eg);
         z-index: 9;
+      
       
   
     }
@@ -252,8 +351,8 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        height: 10px;
-        width: 10px;
+        height: 20px;
+        width: 20px;
         background: purple;
         -webkit-transform: rotate(135deg);
         -moz-transform: rotate(135deg);
@@ -264,8 +363,8 @@ body {
     
     .bur-8 {
         background:purple;
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
         position: relative;
         text-align: center;
         -webkit-transform: rotate(20deg);
@@ -280,8 +379,8 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        height: 15px;
-        width: 15px;
+        height: 20px;
+        width: 20px;
         background:purple;
         -webkit-transform: rotate(135deg);
         -moz-transform: rotate(135deg);
@@ -292,8 +391,8 @@ body {
     
     .b-8 {
         background:purple;
-        width: 13px;
-        height: 13px;
+        width: 18px;
+        height: 18px;
         position: relative;
         text-align: center;
         -webkit-transform: rotate(20deg);
@@ -308,8 +407,8 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        height: 13px;
-        width: 13px;
+        height: 17px;
+        width: 17px;
         background: purple;
         -webkit-transform: rotate(135deg);
         -moz-transform: rotate(135deg);
@@ -485,7 +584,7 @@ body {
   width: 140px;
   height: 28px;
   margin: 20px 0;
-  background: blue;
+  background: black;
   border-radius: 20% / 20%;
   color: white;
   text-align: center;
@@ -495,7 +594,7 @@ body {
   top: 400px;
   left:480px;
      z-index:2;
-     transform: rotate(10deg);
+     transform: rotate(-11deg);
 }
 #tv:before {
   content: 'EXPO';
@@ -509,31 +608,33 @@ body {
 }
       
 
-.tape_1
-{
- font-size: 10em; /* This controls the size. */
- display: inline-block;
- width: 0.4em;
- height: 0.4em;
- border: 0.1em solid red;
- position: relative;
- border-radius: 0.35em;
+#tv1 {
+  width: 140px;
+  height: 28px;
+  margin: 20px 0;
+  background: blue;
+  border-radius: 20% / 20%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+  position: absolute;
+ 
+  top: 390px;
+  left:480px;
+     z-index:2;
+     transform: rotate(20deg);
 }
-.tape_1::before
-{
- content: "";
- display: inline-block;
- position: absolute;
- right: -0.25em;
- bottom: -0.1em;
- border-width: 0;
- background: red;
- width: 0.35em;
- height: 0.08em;
- -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-     -ms-transform: rotate(45deg);
-      -o-transform: rotate(45deg);
+#tv1:before {
+  content: 'EXPO';
+  position: absolute;
+  top: 3%;
+  bottom: 5%;
+  right: -10%;
+  left: -10%;
+  background: inherit;
+  border-radius: 10% / 10%;
 }
+      
+
 
 
