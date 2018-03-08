@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    
+<title>scroll and change size and color</title> 
+<link rel="stylesheet" href="animate.min.css">
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="assets/script.js"></script>
+
+
+</head>
+
+
+<body>
+	        <div id="triangle-small"></div>
+	             <div id="rectangle1"></div>
+
+
+	<style>
+
+
+	#triangle-small {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 100px solid red;
+    border-bottom: 15px solid transparent;
+    z-index: 10;
+    transform: rotate(-25deg);
+    position: absolute;
+    top: 260px;
+    left: 730px;
+    z-index: 11;
+}
+
+#rectangle1 {
+    width: 200px;
+    height: 10px;
+    background: red;
+    position: absolute;
+    top: 530px;
+    left: 100px;
+}
+
+
+</style>
+
+<p align="center"> 
+     
+     <canvas id="mycanvas"></canvas> 
+  
+    
+</p>
+
+ </body>
+
+<script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+
+	  $(function() {
+      var animationName = 'animated shake';
+      var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+      $('#triangle-small').on('click',function() {
+        
+        $('#rectangle1').addClass(animationName).one(animationend,function() {
+          $(this).removeClass(animationName);
+        });
+
+      });
+
+    });
+
+
+
+
+  
+var sketchProc = function(processingInstance) {
+     
+with (processingInstance) {
+        
+ size(1000, 1000);
+        
+
+
+
+draw=function() {
+ 
+
+  colorMode(HSB, 500, 100, 100);
+  rectMode(CENTER); 
+  noStroke();
+  background(mouseY/2, 100, 100);
+
+  fill(500-mouseY/2, 100, 100);
+  rect(500, 500, mouseX+1, mouseX+1);
+
+  
+  };
+
+
+}};  
+
+    
+var canvas = document.getElementById("mycanvas"); 
+  
+ 
+    
+var processingInstance = new Processing(canvas, sketchProc); 
+
+ </script>
+
+
+</html>
