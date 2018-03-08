@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    
+<title>scroll and change size and color</title> 
+
+</head>
+<body>
+<p align="center"> 
+     
+<canvas id="mycanvas"></canvas> 
+  
+    
+</p>
+ </body>
+<script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+
+<script>
+  
+var sketchProc = function(processingInstance) {
+     
+with (processingInstance) {
+        
+ size(1000, 1000);
+        
+
+
+
+draw=function() {
+ 
+
+  colorMode(HSB, 500, 100, 100);
+  rectMode(CENTER); 
+  noStroke();
+  background(mouseY/2, 100, 100);
+
+  fill(500-mouseY/2, 100, 100);
+  rect(500, 500, mouseX+1, mouseX+1);
+
+  
+  };
+
+
+}};  
+
+    
+var canvas = document.getElementById("mycanvas"); 
+  
+ 
+    
+var processingInstance = new Processing(canvas, sketchProc); 
+
+ </script>
+
+
+</html>
