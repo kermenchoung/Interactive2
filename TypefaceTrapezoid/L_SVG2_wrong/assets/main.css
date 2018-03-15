@@ -1,0 +1,145 @@
+body {
+  background-color: aquamarine;
+
+}
+.canvas{
+  width: 1200px;
+  height:1000px;
+  margin: 100px auto;
+  background: #e7d8c5;
+  position: relative;
+ 
+}
+.letter{
+  width:400px;
+  height:500px;
+  background: none;
+   border: 1px solid transparent;
+  position: absolute;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 120px;
+  transform: scale();
+ 
+}
+
+
+
+
+
+.stem {
+  width: 350px;
+  height: 40px;
+  background: none;
+  border: 1px solid transparent;
+  position: absolute;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 00px;
+  
+}
+
+.line {
+  background: black;
+  position: absolute;
+  border: 1px solid transparent;
+  height: 1px;
+  
+ 
+}
+
+.line1 {
+  
+  width: 13px;
+  top: 0px;
+  left: 0px;
+  transform: rotate(25deg);
+  
+  
+}
+
+.line2 {
+  width: 32px;
+  
+  top:33px;
+  left:2px;
+  transform: rotate(-67deg);
+  transform-origin: bottom left;
+  
+}
+
+.line3 {
+  width: 50px;
+  
+  top:34px;
+  left:0px;
+}
+
+.line4 {
+  width: 59px;
+
+  top:17px;
+  left:47px;
+  transform: rotate(146deg);
+   
+}
+
+.stem2 {
+  top: 50px;
+}
+
+.stem3 {
+  top: 100px;
+}
+
+.stem4 {
+  top: 150px;
+}
+
+.stem5 {
+  top: 200px;
+}
+.stem6 
+{
+  top: 250px;
+}
+.stem7 
+{
+  top: 300px;
+}
+.stem8 
+{
+  width: 350px;
+  height: 50px;
+  top: 350px;
+  
+ 
+}
+
+.line5{
+  width: 320px;
+  top:47px;
+  left:0px;
+}
+
+.line6{
+  width:13px;
+  top:0px;
+  left:305px;
+  transform: rotate(170deg);
+}
+ 
+.line7{
+  width:66px;
+  top:16px;
+  left:244px;
+  transform: rotate(153deg);
+}
+.line8{
+  width:250px;
+  top:31px;
+  left:0px;
+  
+}

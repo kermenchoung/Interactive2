@@ -1,0 +1,144 @@
+body {
+  background-color: aquamarine;
+}
+.canvas {
+  width: 1400px;
+  height: 1000px;
+  margin: 1px auto;
+  background: #e7d8c5;
+  position: relative;
+}
+
+.letter {
+  width: 85px;
+  height: 107px;
+  background: none;
+  border: 0.5px solid blue;
+  position: relative;
+   display: inline-block;
+
+  
+  margin: 10px;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 0px;
+  transform: scale();
+}
+
+.line {
+  background: black;
+  position: absolute;
+  height: 1px;
+  left: 0px;
+    
+}
+
+.line1 {
+  background: grey;
+  width: 3px;
+  top: 0px;
+  
+  transform: rotate(25deg);
+}
+
+.line2 {
+  width: 8px;
+  top: 7px;
+ 
+  transform: rotate(-67deg);
+  transform-origin: bottom left;
+}
+
+.line3 {
+  width: 12px;
+  top: 7px;
+  
+}
+
+.line4 {
+  background: grey;
+  width: 15px;
+  top: 3px;
+  left: 10px;
+  transform: rotate(146deg);
+}
+.module{
+  width: 24px;
+  height:8px;
+  background: none;
+  border: 0.5px solid transparent;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  top: 0px;
+  left: 0px;
+
+  
+}
+.stem{
+  width: 24px;
+  height:107px;
+  display:inline-block;
+  background: none;
+  border: 0.5px solid transparent;
+  position: absolute;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  top: 0px;
+  left: 0px;
+
+}
+.module1{  }
+
+.module2{  }
+.module3{  }
+.module4{  }
+.module5{  }
+.module6{  }
+.module7{  }
+.module8{  }
+
+
+#L{}
+
+#L .module8 .line3{
+  width: 70px;
+}
+
+#L .module8 .line4{
+  left: 68px;
+  }
+
+#E{}
+
+#E .module1 .line3{
+  width: 56px;
+
+  }
+
+#E .module1 .line4{
+  left: 54px;
+
+  }
+
+ #E .module8 .line3{
+  width: 56px;
+
+  } 
+
+#E .module8 .line4{
+  left: 54px;
+
+  }
+
+#E .module4 .line3{
+  width: 50px;
+
+  }
+
+#E .module4 .line4{
+  left: 48px;
+
+  }
+

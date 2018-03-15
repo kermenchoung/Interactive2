@@ -1,0 +1,330 @@
+body {
+  background-color: aquamarine;
+
+}
+.canvas{
+  width: 1400px;
+  height:1000px;
+  margin: 0px auto;
+  background: #e7d8c5;
+
+  position: relative;
+ 
+}
+
+
+.letter{
+  width:170px;
+  height:218px;
+  background: none;
+  border: 1px solid transparent;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 0px;
+  transform: scale();
+ 
+}
+
+/*.svg{
+  width:340px;
+  height:435px;
+  background: none;
+  border: 1px solid orange;
+  position: absolute;
+
+  margin: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 0px;
+  transform: scale();
+  
+  
+}*/
+
+
+
+.stem {
+  width: 50px;
+  height: 18px;
+  background: none;
+  border: 1px solid transparent;
+  position: absolute;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 0px;
+      
+
+}
+
+.line {
+  background: black;
+  position: absolute;
+  /*border: 1px solid transparent;*/
+  height: 4px;
+  
+ 
+}
+
+.line1 {
+  background: grey;
+  width: 8px;
+  top: 0px;
+  left: 0px;
+  transform: rotate(25deg);
+  
+  
+}
+
+.line2 {
+  width: 17px;
+  top:17px;
+  left:1px;
+  transform: rotate(-67deg);
+  transform-origin: bottom left;
+  
+}
+
+.line3 {
+  width: 27px;
+  top:17px;
+  left:0px;
+  
+}
+
+.line4 {
+    background: grey;
+  width: 30px;
+  top:9px;
+  left:24px;
+  transform: rotate(146deg);
+   
+}
+
+
+.line4:hover{
+ /*background: red; */
+ /*transform: rotate(45deg);*/
+   background: black;
+}
+
+ .stem2 {
+  top: 28px;
+}
+
+ .stem3 {
+  top: 56px;
+}
+
+ .stem4 {
+  top: 83px;
+}
+
+.stem5 {
+  top: 111px;
+}
+.stem6 
+{
+  top: 138px;
+}
+ .stem7 
+{
+  top: 166px;
+}
+.stem8 
+{
+ 
+  top: 193px;
+ 
+}
+.line5{
+  width:146px;
+  top:17px;
+  left:0px;
+  
+}
+
+ .line6{
+  width: 30px;
+  top:9px;
+  left:142px;
+  transform: rotate(146deg);
+    background: grey;
+  
+}
+
+#E .stemETop {
+  
+
+  
+}
+
+#E{top:3px;
+  
+  
+}
+
+
+#E .stemEBottom {
+  
+top:193px;
+  
+}
+
+
+
+.stemEmiddle {
+  top: 83px;
+
+}
+
+.line7{
+  width:105px;
+  top:17px;
+  left:0px;
+  
+}
+
+.line8{
+  width: 30px;
+  top:9px;
+  left:102px;
+  transform: rotate(146deg);
+   background: grey;
+    
+}
+
+.line9{
+  top:17px;
+  left:0px;
+  width:123px;
+ 
+
+}
+.line10{
+  width: 30px;
+  top:9px;
+  left:120px;
+  transform: rotate(146deg);
+    background: grey;
+
+}
+
+
+
+.stemLast{
+
+top: 193px;
+}
+  
+
+.wire{
+  width: 172px;
+  height: 2px;
+  
+  background:grey;
+  position: absolute;
+  height: 2px;
+  
+  top: 25px;
+  left: 73px;
+  
+}
+.wire1{
+   top: 25px;
+
+}
+
+.wiretwo{
+   top: 53px;
+
+}
+.wire2{
+   top: 81px;
+
+}
+.wire3{
+   top: 108px;
+
+}
+.wire4{
+   top:136px;
+
+}
+.wire5{
+   top: 163px;
+
+}
+.wire6{
+   top: 191px;
+
+}
+.wire7{
+   top: 218px;
+  left: 192px;
+  width: 52px;
+
+}
+.wire8{
+   top: 27px;
+  left: 390px;
+  width: 71px;
+
+}
+#F{
+  top: 5px;
+}
+.wire9{
+   top: 56px;
+  left: 292px;
+  width: 172px;
+
+}
+.wire10{
+   top: 84px;
+  left: 292px;
+  width: 172px;
+
+}
+.wire11{
+  top: 110px;
+  left: 372px;
+  width: 90px;
+
+}
+.wire12{
+   top: 139px;
+  left: 292px;
+  width: 172px;
+
+}
+
+.wire13{
+  top: 139px;
+  left: 292px;
+  width: 172px;
+
+}
+.wire14{
+  top: 166px;
+  left: 292px;
+  width: 172px;
+
+}
+.wire15{
+  top: 194px;
+  left: 292px;
+  width: 172px;
+
+}
+.wire16{
+   top: 220px;
+  left: 390px;
+  width: 71px;
+
+}

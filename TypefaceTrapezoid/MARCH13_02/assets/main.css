@@ -1,0 +1,203 @@
+body {
+  background-color: aquamarine;
+
+}
+.canvas{
+  width: 1400px;
+  height:1000px;
+  margin: 100px auto;
+  background: #e7d8c5;
+  position: relative;
+ 
+}
+.letter{
+  width:170px;
+  height:218px;
+  background: none;
+  border: 1px solid none;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 0px;
+  transform: scale();
+ 
+}
+
+.svg{
+  width:340px;
+  height:435px;
+  background: none;
+  border: 1px solid orange;
+  position: absolute;
+
+  margin: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 0px;
+  transform: scale();
+  
+  
+}
+
+
+
+.stem {
+  width: 50px;
+  height: 18px;
+  background: none;
+  border: 1px solid transparent;
+  position: absolute;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 0px;
+  
+}
+
+.line {
+  background: black;
+  position: absolute;
+  /*border: 1px solid transparent;*/
+  height: 2px;
+  
+ 
+}
+
+.line1 {
+  width: 8px;
+  top: 0px;
+  left: 0px;
+  transform: rotate(25deg);
+  
+  
+}
+
+.line2 {
+  width: 17px;
+  top:17px;
+  left:1px;
+  transform: rotate(-67deg);
+  transform-origin: bottom left;
+  
+}
+
+.line3 {
+  width: 27px;
+  top:17px;
+  left:0px;
+}
+
+.line4 {
+  width: 30px;
+  top:9px;
+  left:24px;
+  transform: rotate(146deg);
+   
+}
+
+ .stem2 {
+  top: 28px;
+}
+
+ .stem3 {
+  top: 56px;
+}
+
+ .stem4 {
+  top: 83px;
+}
+
+.stem5 {
+  top: 111px;
+}
+.stem6 
+{
+  top: 138px;
+}
+ .stem7 
+{
+  top: 166px;
+}
+.stem8 
+{
+ 
+  top: 193px;
+ 
+}
+.line5{
+  width:146px;
+  top:17px;
+  left:0px;
+  
+}
+
+ .line6{
+  width: 30px;
+  top:9px;
+  left:142px;
+  transform: rotate(146deg);
+  
+}
+
+#E .stemETop {
+  
+
+  
+}
+
+
+#E .stemEBottom {
+  
+top:193px;
+  
+}
+
+
+
+.stemEmiddle {
+  top: 83px;
+
+}
+
+.line7{
+  width:105px;
+  top:17px;
+  left:0px;
+  
+}
+
+.line8{
+  width: 30px;
+  top:9px;
+  left:102px;
+  transform: rotate(146deg);
+    
+}
+
+.line9{
+  top:17px;
+  left:0px;
+  width:123px;
+
+}
+.line10{
+  width: 30px;
+  top:9px;
+  left:120px;
+  transform: rotate(146deg);
+
+}
+
+
+
+.stemLast{
+
+top: 193px;
+}
+  
+
+

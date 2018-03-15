@@ -1,0 +1,369 @@
+body {
+  background-color: aquamarine;
+}
+.canvas {
+  width: 1800px;
+  height: 1000px;
+  margin: 1px auto;
+  background: #e7d8c5;
+
+  position: relative;
+}
+
+.letter {
+  width: 85px;
+  height: 107px;
+  background: none;
+/*border: 0.5px solid blue;*/
+  position: relative;
+  display: inline-block;
+
+  
+  margin: 10px;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 0px;
+  transform: scale();
+}
+
+.svg{
+  
+  width: 85px;
+  height: 107px;
+  background: none;
+/*border: 0.5px solid blue;*/
+  position: absolute;
+  display: inline-block;
+  margin: 10px;
+
+  
+
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 10px;
+  left: 8px;
+  transform: scale();
+}
+
+.line {
+  background: red;
+  position: absolute;
+  height: 1px;
+  left: 0px;
+    
+}
+
+.line1 {
+  background: grey;
+  width: 3px;
+  top: 0px;
+  
+  transform: rotate(25deg);
+}
+
+.line2 {
+  width: 8px;
+  top: 7px;
+ background: black;
+  transform: rotate(-67deg);
+  transform-origin: bottom left;
+}
+
+.line3 {
+  width: 12px;
+  top: 7px;
+  background: black;
+}
+
+.line4 {
+ background: grey;
+  width: 14px;
+  top: 3px;
+  left: 10px;
+  transform: rotate(146deg);
+}
+
+
+  
+
+.module{
+  width: 24px;
+  height:8px;
+  background: none;
+  /*border: 1px solid orange;*/
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  top: 0px;
+  left: 0px;
+
+  
+}
+.stem{
+  width: 24px;
+  height:107px;
+  display:inline-block;
+  background: none;
+  border: 0.5px solid transparent;
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  top: 0px;
+  left: 0px;
+
+}
+.module1{  }
+
+.module2{  }
+.module3{  }
+.module4{  }
+.module5{  }
+.module6{  }
+.module7{  }
+
+
+
+
+#L{}
+
+#L .module8 .line3, #O .module8 .line3{
+  width: 70px;
+}
+
+#L .module8 .line4{
+  left: 68px;
+  }
+
+#E{}
+
+#E .module1 .line3, #F .module1 .line3, #B .module1 .line3, #P .module1 .line3, #R .module1 .line3{
+  width: 56px;
+
+  }
+
+#E .module1 .line4, #F .module1 .line4, #B .module1 .line4, #P .module1 .line4, #R .module1 .line4{
+  left: 54px;
+
+  }
+
+  #P{
+
+}
+
+ #R{
+
+}
+
+
+
+ #E .module8 .line3, #B .module8 .line3, #U .module8 .line3{
+  width: 56px;
+
+  } 
+
+#E .module8 .line4, #B .module8 .line4, #U .module8 .line4{
+  left: 54px;
+
+  }
+
+#E .module4 .line3, #F .module4 .line3, #B .module4 .line3, #P .module5 .line3, #R .module5 .line3{
+  width: 50px;
+
+  }
+
+#E .module4 .line4, #F .module4 .line4, #B .module4 .line4, #P .module5 .line4, #R .module5 .line4{
+  left: 48px;
+
+  }
+
+  .line5{
+
+    width:32px;
+    height:1px;
+    background:grey;
+    top:0px;
+    left: 23px;
+  }
+
+#B .module2 .module3 .module6 .module7{
+  width: 84px;
+
+}
+
+#B .module2 .module, .module3 .module, .module6 .module, .module7 .module{
+left: 54px;
+
+}
+
+#P .module2 .module, .module3 .module, .module4 .module{
+left: 54px;
+
+}
+
+#R .module2 .module, #R .module7 .module, #R .module8 .module, #K .module1 .module, #K .module8 .module{
+  left: 54px;
+}
+
+
+
+
+#B .module5 .line5, #P .module4 .line5 {
+  width:24px;
+}
+
+#R .module4 .line5, #R .module6 .line5{
+   width:24px;
+
+}
+
+#B .module5 .module, #P .module4 .module, #R .module4 .module, #R .module6 .module{
+  left: 47px;
+
+}
+#K .module2 .line5, #K .module7 .line5 {
+   width:25px;
+
+}
+#K .module4 .line5{
+  width:5px;
+
+
+}
+#K .module3 .line5, #K .module6 .line5 {
+   width:20px;
+
+}
+
+ #K .module5 .line5{
+  width:15px;
+} 
+
+#K .module2 .module, #K .module7 .module{
+left: 47px;
+
+}
+
+#K .module5 .module{
+left: 38px;
+
+}
+#K .module3 .module, #K .module6 .module{
+left: 43px;
+
+}
+#K .module4 .module{
+left: 28px;
+
+}
+
+#U .module1 .module, #U .module2 .module, #U .module3 .module, #U .module4 .module, #U .module5 .module, #U .module6 .module, #U .module7 .module{
+left: 64px;
+
+}
+
+#U .module1 .line5, #U .module2 .line5, #U .module3 .line5, #U .module4 .line5, #U .module5 .line5, #U .module6 .line5, #U .module7 .line5, #H .module1 .line5, #H .module2 .line5, #H .module3 .line5, #H .module4 .line5, #H .module5 .line5, #H .module6 .line5, #H .module7 .line5, #H .module8 .line5, #N .module1 .line5, #N .module8 .line5{
+width: 44px;
+
+}
+
+#U .module8{
+left: 12px;
+
+}
+
+#H .module1 .module, #H .module2 .module, #H .module3 .module, #H .module5 .module, #H .module6 .module, #H .module7 .module, #H .module8 .module,  #N .module1 .module, #N .module2 .module, #N .module3 .module, #N .module4 .module, #N .module5 .module, #N .module6 .module, #N .module7 .module, #N .module8 .module{
+left: 64px;
+
+}
+
+#H .module4 .line3{
+width: 78px;
+
+}
+#H .module4 .line4{
+left: 76px;
+
+}
+/*O*/
+
+#O .module4 .line5, #O .module5 .line5{
+
+width: 80px;
+}
+
+
+#O .module4 .module, #O .module5 .module,  #O .module6 .module{
+  left: 102px;
+}
+
+ #O .module3 .module{
+  left: 94px;  
+}
+ 
+#O .module7 .module{
+    left: 85px; 
+}
+
+
+ #O .module2 .module{
+  left: 70px;  
+}
+#O .module3 {
+  left: 4px;
+
+}
+
+#O .module2{
+  left: 15px;
+
+}
+
+#O .module1{
+  left: 30px;
+
+}
+#O .module7{
+  left: 8px;
+
+}
+#O .module8{
+  left: 20px;
+  top:2px;
+
+}
+
+#O .module8 .line4{
+  left: 68px;
+
+
+}
+
+
+#O .module1 .line3{
+  width: 55px;
+
+}
+#O .module1 .line4{
+left: 54px;
+
+}
+#O .module2 .line5{
+  width:50px;
+}
+#O .module3 .line5{
+  width:70px;
+}
+#O .module6 .line5{
+  
+  width:80px;
+}
+#O .module7 .line5{
+  
+  width:63px;
+}
+#O .module6{
+  
+top:1px;
+  left:1px;
+}

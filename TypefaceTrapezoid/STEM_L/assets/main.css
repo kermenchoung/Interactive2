@@ -1,0 +1,90 @@
+body {
+  background: grey;
+  padding: 10px;
+}
+
+.canvas {
+  width: 900px;
+  height: 556px;
+  margin: 0px auto;
+  background: #e7d8c5;
+  position: relative;
+}
+
+#rectangle {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+  top: 300px ;
+  left:400px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-t: 2px solid black;
+ 
+  border-right: 2px solid black;
+
+}
+
+.stem{
+  width: 100px;
+  height:100px;
+  background:none;
+  border: 1px solid red;
+  display: inline-block;
+  position: relative;
+  /*margin:0 px auto;*/
+  top: 20px;
+  left: 100px;
+}
+
+#line1 {
+	width: 13px;
+	height: 1px;
+	background: red;
+  margin:0 px auto;
+	position: absolute;
+  top:17px;
+  left:7px;
+  transform: rotate(25deg);
+  /*transform: scale(0.1);*/
+}
+
+#line2 {
+	width: 29px;
+	height: 1px;
+	background: red;
+  position: absolute;
+  top:33px;
+  left:0px;
+  transform: rotate(114deg);
+  /*transform: scale(0.1);*/
+}
+#line3 {
+	width: 48px;
+	height: 1px;
+	background: red;
+  position: absolute;
+  top:47px;
+  left:8px;
+  /*transform: scale(0.1);*/
+}
+
+#line4 {
+	width: 58px;
+	height: 1px;
+	background: red;
+  position: absolute;
+  top:31px;
+  left:50px;
+  /*transform: scale(0.1);*/
+   transform: rotate(146deg);
+}
+
+
+
+
+
+
+
+
+
