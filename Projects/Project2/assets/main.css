@@ -1,10 +1,10 @@
 body {
-  background-color: aquamarine;
+  background-color: #e7d8c5;
 }
 .canvas {
   width: 1800px;
   height: 1000px;
-  margin: 1px auto;
+  margin: 0px auto;
   background: #e7d8c5;
 
   position: relative;
