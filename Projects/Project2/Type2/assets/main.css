@@ -1,11 +1,11 @@
 body {
-  background-color: #e7d8c5;
+  background-color: black;
 }
 .canvas {
   width: 1800px;
   height: 1000px;
   margin: 0px auto;
-  background: #e7d8c5;
+  background: lightblue;
   position: relative;
 }
 
@@ -70,7 +70,7 @@ body {
 .module{
   width: 24px;
   height:8px;
-  background: #e7d8c5;
+  background: lightblue;
   /*border: 1px solid orange;*/
   position: relative;
   margin-top: 0px;
@@ -100,16 +100,26 @@ body {
 .module4{  }
 .module5{  }
 .module6{  }
-.module7{  
-   
+.module7{  }
+
+
+
+
+#L .module8, #F .module1, #B .module1, #B .module8, #P .module1, #R .module1{
+width: 66px;
+ background-color:lightblue;
+
 }
 
-
-
-
 #L .module8{
-width: 80px;
- background-color:#e7d8c5;
+width: 78px;
+ background-color:lightblue;
+
+}
+
+#F .module4, #B .module4, #P .module5,  #R .module5{
+  width: 60px;
+ background-color:lightblue;
 
 }
 
@@ -125,13 +135,13 @@ width: 80px;
 #E .module1, #E .module8{
 
 width: 65px;
- background-color:#e7d8c5;
+ background-color:lightblue;
 
 }
 
  #E .module4{
 width: 60px;
- background-color:#e7d8c5;
+ background-color:lightblue;
 
  }
 
