@@ -1,44 +1,20 @@
 body {
-  background-color: white;
+  background-color: #e7d8c5;
 }
 .canvas {
-  width: 4800px;
+  width: 3800px;
   height: 1000px;
-  margin: 20px;
-  background: lightcyan;
-  position: relative;
-  display: inline-block;
-}
-.container1 {
-  width: 4800px;
-  height: 200px;
   margin: 0px auto;
-  background: lightcyan;
+  background: #e7d8c5;
   position: relative;
 }
 
-.container2 {
-  width: 4800px;
-  height: 200px;
-  background: lightcyan;
-  position: relative;
-}
-.container3 {
-  width: 4800px;
-  height: 200px;
-  background: lightcyan;
-  position: relative;
-}
-.container4 {
-  width: 4800px;
-  height: 200px;
-  background: black;
-  position: relative;
-}
 .letter {
   width: 85px;
   height: 107px;
-  background:none;
+  background: lightpink;
+  opacity:0.5;
+  
   position: relative;
   display: inline-block;
   margin: 20px;
@@ -59,7 +35,7 @@ body {
   padding-top: 0px;
   padding-left: 0px;
   top: 20px;
-  left:3465px;
+  left:2450px;
   
 }
 
@@ -107,9 +83,6 @@ body {
   margin-bottom: 6px;
   top: 0px;
   left: 0px;
-}
-.container2 .module{
-  background: lightcyan;
 }
 
 /*Letter A*/
@@ -219,67 +192,6 @@ left:20px;
 .armLong .line4{
   background: grey;
   left: 68px;
-}
-
-#B{
-  margin-left:50px;
-}
-#D{
-  margin-left:50px;
-}
-#E{
-  margin-left:60px;
-}
-#G{
-  margin-left:0px;
-}
-#H{
-  margin-left:60px;
-}
-#I{
-  margin-left:50px;
-  margin-right:0px;
-}
-#J{
-margin-left:0px;
-margin-right:0px;
-}
-#K{
-margin-left:40px;
-
-}
-#N{
-   margin-left:60px;
-}
-#O{
-   margin-left:40px;
-}
-#P{
-   margin-left:80px;
-}
-#R{
-   margin-left:80px;
-}
-#T{
-   margin-left:40px;
-}
-#U{
-   margin-left:40px;
-}
-#V{
-   margin-left:40px;
-}
-#W{
-   margin-left:40px;
-}
-#X{
-   margin-left:40px;
-}
-#Y{
-   margin-left:50px;
-}
-#Z{
-   margin-left:40px;
 }
 
 /*Letter E*/
@@ -409,16 +321,9 @@ background:none;
 }
 
 
-.stem{
-  left:38px;
-}
-#J .armShort .line1, #J .armShort .line2{
-left: 10px;
-}
 
-#J .armShort .line3{
-  width:40px;
-  left: 10px;
+#J .armShort{
+  left: 0px;
 }
 
 .Short .module
@@ -534,7 +439,9 @@ left: 47px;
 }
 
 /*P*/
-
+#P{
+   margin-left: 50px;
+}
 
 /*Q*/
 
@@ -607,13 +514,15 @@ left: 47px;
 #Q .armShort .line4{
    left:20px;
 }
-
-
+/*R*/
+#R{
+   margin-left: 50px;
+}
 
 /*S*/
 
 
-
+/*O*/
 
 #S .armMed{
   left:30px;
@@ -648,23 +557,20 @@ left: 47px;
 #S .V7 .line4{
   left:57px;
 }
-/*T*/
+
 #T .module{
   left:35px;
 }
 
-#T .armLong{
+#T .module .armLong{
 left: 0px;
+  
 }
 
 #T .armLong .line3{
- width: 82px;
-  }
-#T .armLong .line4{
- left: 80px;
-  }
-
-/*U*/
+ width: 90px;
+  
+}
 #U .armShort{
   left:12px;
 }
@@ -679,33 +585,32 @@ left: 0px;
 }
 
 /*N*/
-
+#N{
+  margin-left:50px;
+}
 #N .module .module1{
-
   left: 19px;
- 
+  background: none;
 }
 #N .module .module2{
-
   left: 22px;
- 
+  background: none;
 }
 #N .module .module3{
   left: 31px;
- 
+  background: none;
 }
 #N .module .module4{
   left: 39px;
-  
+  background: none;
 }
 #N .module .module5{
   left: 50px;
- 
+  background: none;
 }
 #N .module .module6{
-
   left: 59px;
- 
+  background: none;
 }
  .line6
 {
@@ -885,7 +790,7 @@ position:absolute;
 */
 #UM{
 position:absolute;
-  left: 1665px;
+  left: 1555px;
 }
 
 
@@ -958,7 +863,14 @@ width:5px;
 }
 #UM .M8 .line5{
   width:26px;
+
 }
+
+
+
+
+
+
 
 /*W*/
 #W{
@@ -1154,7 +1066,9 @@ left:20px;
   width:0px;
 }
 
-
+#W{
+  margin-left:80px;
+}
 
 .V4 .line6
 {
@@ -1277,6 +1191,13 @@ left:20px;
 }
 
 /*X*/
+
+
+#X{
+  background:none;
+  margin-right:0px;
+}
+
 #X .V1{
   left:0px;
   
@@ -1364,7 +1285,13 @@ left:20px;
   width:30px;
 }
 
-/*Y*/
+/*X*/
+
+
+#Y{
+  background:none;
+
+}
 
 #Y .V1{
   left:0px;
@@ -1447,236 +1374,3 @@ left:20px;
 #Y .V8{
   left:32px;
 }
-
-/*Z*/
-
-
-#Z .V1{
-  left:60px;
-}
-#Z .V2{
-  left:50px;
-}
-#Z .V3{
-  left:40px;
-}
-#Z .V4{
-  left:30px;
-}
-#Z .V5{
-  left:20px;
-}
-#Z .V6{
-  left:10px;
-}
-
-
-#Z .armMed .line3{
-width:65px;
-}
-#Z .armMed .line4{
-left:63px;
-}
-#Z .armMed{
-  left:15px;
-}
-#Z .V7 {
-  left:0px;
-}
-
-#Z .V7 .line3{
- width:70px;
-}
-#Z .V7 .line4{
-  left:67px;
-}
-
-/*power wire*/
-.wire{
-  width: 4000px;
-  height:1px;
-  top: 19px;
-  background: grey;
-  position: absolute;
-
-  left: 0px;
-}
-.W1{
-   top: 20px;
-}
-.W2{
-   top: 34px;
-}
-.W3{
-   top: 48px;
-}
-.W4{
-   top: 62px;
-}
-.W5{
-   top: 76px;
-}
-.W6{
-   top: 90px;
-}
-.W7{
-   top: 104px;
-}
-.W8{
-   top: 118px;
-}
-.W9{
-   top: 132px;
-}
-
-
-/*Lightcyan*/
-.armLong{
-  width:78px;
-  background:lightcyan;
-}
-
-.armMed{
-   width:68px;
-  background:lightcyan;
-}
-.armShort{
-    width:60px;
-  background:lightcyan;
-}
-#K .module{
-   background: lightcyan;
-}
-#P .module{
-   background: lightcyan;
-}
-#U .module{
-   background: lightcyan;
-}
-#B .module{
-   background: lightcyan;
-}
-#H .module{
-   background: lightcyan;
-}
-#N .module{
-   background: lightcyan;
-}
-
-#R .module{
-   background: lightcyan;
-}
-#UM .module{
-   background: lightcyan;
-}
-
-/*Container3*//*Container3*//*Container3*//*Container3*/
-.container3 .module{
-  background:lightcyan;
-}
-
-.container3 #L{
-margin-left:300px;
-}
-.container3 #K{
-margin-left:20px;
-}
-.container3 #O{
-  margin-left:0px;
-  margin-right:80px;
-}
-.container3 #P{
-   margin-left:20px;
-}
-
-.container3 #U{
-   margin-left:100px;
-}
-
-/*Lightcyan*/
-.container3 .armLong{
-  width:78px;
-  background:lightcyan;
-}
-
-.container3 .armMed{
-   width:68px;
-  background:lightcyan;
-}
-.container3 .armShort{
-    width:60px;
-  background:lightcyan;
-}
-.container3 #K .module{
-   background: lightcyan;
-}
-.container3 #P .module{
-   background: lightcyan;
-}
-.container3 #U .module{
-   background: lightcyan;
-}
-
-
-
-/*Lightcyan*/
-
-
-/*Container4*//*Container4*//*Container4*//*Container4*/
-.container4 .module{
-  background:black;
-}
-
-.container4 #L{
-margin-left:300px;
-}
-.container4 #K{
-margin-left:20px;
-}
-.container4 #O{
-  margin-left:0px;
-  margin-right:80px;
-}
-.container4 #P{
-   margin-left:20px;
-}
-
-.container4 #U{
-   margin-left:100px;
-}
-
-/*Lightcyan*/
-.container4 .armLong{
-  width:78px;
-  background:black;
-}
-
-.container4 .armMed{
-   width:68px;
- background:black;
-}
-.container4 .armShort{
-    width:60px;
- background:black;
-}
-.container4 #K .module{
-   background:black;
-}
-.container4 #P .module{
-  background:black;
-}
-.container4 #U .module{
-  background:black;
-}
-
-
-
-/*Lightcyan*/
-
-
-
-
-
-
-
-

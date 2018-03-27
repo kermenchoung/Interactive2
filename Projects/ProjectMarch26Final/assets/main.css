@@ -1,44 +1,19 @@
 body {
-  background-color: white;
+  background-color: #e7d8c5;
 }
 .canvas {
   width: 4800px;
   height: 1000px;
-  margin: 20px;
-  background: lightcyan;
-  position: relative;
-  display: inline-block;
-}
-.container1 {
-  width: 4800px;
-  height: 200px;
   margin: 0px auto;
-  background: lightcyan;
+  background: #e7d8c5;
   position: relative;
 }
 
-.container2 {
-  width: 4800px;
-  height: 200px;
-  background: lightcyan;
-  position: relative;
-}
-.container3 {
-  width: 4800px;
-  height: 200px;
-  background: lightcyan;
-  position: relative;
-}
-.container4 {
-  width: 4800px;
-  height: 200px;
-  background: black;
-  position: relative;
-}
 .letter {
   width: 85px;
   height: 107px;
   background:none;
+  
   position: relative;
   display: inline-block;
   margin: 20px;
@@ -107,9 +82,6 @@ body {
   margin-bottom: 6px;
   top: 0px;
   left: 0px;
-}
-.container2 .module{
-  background: lightcyan;
 }
 
 /*Letter A*/
@@ -681,31 +653,28 @@ left: 0px;
 /*N*/
 
 #N .module .module1{
-
   left: 19px;
- 
+  background: none;
 }
 #N .module .module2{
-
   left: 22px;
- 
+  background: none;
 }
 #N .module .module3{
   left: 31px;
- 
+  background: none;
 }
 #N .module .module4{
   left: 39px;
-  
+  background: none;
 }
 #N .module .module5{
   left: 50px;
- 
+  background: none;
 }
 #N .module .module6{
-
   left: 59px;
- 
+  background: none;
 }
  .line6
 {
@@ -1490,193 +1459,3 @@ left:63px;
 #Z .V7 .line4{
   left:67px;
 }
-
-/*power wire*/
-.wire{
-  width: 4000px;
-  height:1px;
-  top: 19px;
-  background: grey;
-  position: absolute;
-
-  left: 0px;
-}
-.W1{
-   top: 20px;
-}
-.W2{
-   top: 34px;
-}
-.W3{
-   top: 48px;
-}
-.W4{
-   top: 62px;
-}
-.W5{
-   top: 76px;
-}
-.W6{
-   top: 90px;
-}
-.W7{
-   top: 104px;
-}
-.W8{
-   top: 118px;
-}
-.W9{
-   top: 132px;
-}
-
-
-/*Lightcyan*/
-.armLong{
-  width:78px;
-  background:lightcyan;
-}
-
-.armMed{
-   width:68px;
-  background:lightcyan;
-}
-.armShort{
-    width:60px;
-  background:lightcyan;
-}
-#K .module{
-   background: lightcyan;
-}
-#P .module{
-   background: lightcyan;
-}
-#U .module{
-   background: lightcyan;
-}
-#B .module{
-   background: lightcyan;
-}
-#H .module{
-   background: lightcyan;
-}
-#N .module{
-   background: lightcyan;
-}
-
-#R .module{
-   background: lightcyan;
-}
-#UM .module{
-   background: lightcyan;
-}
-
-/*Container3*//*Container3*//*Container3*//*Container3*/
-.container3 .module{
-  background:lightcyan;
-}
-
-.container3 #L{
-margin-left:300px;
-}
-.container3 #K{
-margin-left:20px;
-}
-.container3 #O{
-  margin-left:0px;
-  margin-right:80px;
-}
-.container3 #P{
-   margin-left:20px;
-}
-
-.container3 #U{
-   margin-left:100px;
-}
-
-/*Lightcyan*/
-.container3 .armLong{
-  width:78px;
-  background:lightcyan;
-}
-
-.container3 .armMed{
-   width:68px;
-  background:lightcyan;
-}
-.container3 .armShort{
-    width:60px;
-  background:lightcyan;
-}
-.container3 #K .module{
-   background: lightcyan;
-}
-.container3 #P .module{
-   background: lightcyan;
-}
-.container3 #U .module{
-   background: lightcyan;
-}
-
-
-
-/*Lightcyan*/
-
-
-/*Container4*//*Container4*//*Container4*//*Container4*/
-.container4 .module{
-  background:black;
-}
-
-.container4 #L{
-margin-left:300px;
-}
-.container4 #K{
-margin-left:20px;
-}
-.container4 #O{
-  margin-left:0px;
-  margin-right:80px;
-}
-.container4 #P{
-   margin-left:20px;
-}
-
-.container4 #U{
-   margin-left:100px;
-}
-
-/*Lightcyan*/
-.container4 .armLong{
-  width:78px;
-  background:black;
-}
-
-.container4 .armMed{
-   width:68px;
- background:black;
-}
-.container4 .armShort{
-    width:60px;
- background:black;
-}
-.container4 #K .module{
-   background:black;
-}
-.container4 #P .module{
-  background:black;
-}
-.container4 #U .module{
-  background:black;
-}
-
-
-
-/*Lightcyan*/
-
-
-
-
-
-
-
-
