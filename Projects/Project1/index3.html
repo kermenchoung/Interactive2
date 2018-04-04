@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+     
+ <title>scroll and change size and color</title> 
+    <link rel="stylesheet" href="animate.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="assets/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+</head>
+
+
+<body>
+
+	
+	        
+<p align="center"> 
+     
+<canvas id="mycanvas"></canvas> 
+  
+    
+</p>
+
+
+<style>
+
+body{
+	height:100%;
+	width:960;
+    
+    background: #d85330;
+}
+
+
+
+
+
+
+</style>
+
+
+
+ </body>
+
+
+<script>
+
+
+	 
+
+  
+var sketchProc = function(processingInstance) {
+
+with (processingInstance) 
+
+{
+ size(960, 600);
+
+       draw=function() {
+ 
+colorMode(HSB, 360, 100, 100);
+  rectMode(CENTER); 
+  background(mouseY/2, 100, 100);
+  noStroke(); 
+         
+  fill(360-mouseY/5, 100, 100);
+  rect(800, 0,mouseX+1,mouseY+1);
+         
+  fill(360-mouseY/2, 50, 80);
+  rect(100,100,mouseY+1,mouseY+1);
+         
+  fill(360-mouseY/3, 100, 100);
+  rect(450,450,mouseY+1,mouseY+1);
+         
+  fill(100, 100, 100);
+  rect(300,380,mouseX+3,mouseX+3);
+         
+  fill(360, 100, 100);
+  rect(900,500,mouseX+3,mouseX+3);
+ 
+
+  };
+}};  
+
+
+    
+var canvas = document.getElementById("mycanvas");  
+var processingInstance = new Processing(canvas, sketchProc); 
+
+
+
+
+
+ </script>
+
+
+</html>
