@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+}
+.canvas {
+  width: 4800px;
+  height: 1000px;
+  margin: 20px;
+  background: lightcyan;
+  position: relative;
+  display: inline-block;
+}
+.container1 {
+  width: 4800px;
+  height: 200px;
+  margin: 0px auto;
+  background: lightcyan;
+  position: relative;
+}
+

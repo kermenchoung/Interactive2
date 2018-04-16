@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>
+    Ellsworth Kelly 
+  </title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ellsworth Kelly microsite</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <link rel="stylesheet" href="assets/main.css" type="text/css" />
+</head>
+
+
+<body>
+
+<div id="person"> <img src="assets/person.png" >
+
+</div>
+
+  <div class="scroll">
+
+    <img src="assets/gallery_01.png" >
+    <!--<img src="assets/02.jpg" >
+    <img src="assets/03.jpg" >
+    <img src="assets/04.jpg" >
+    <img src="assets/05.jpg" >-->
+  </div>
+
+<div class="artwork artwork1">
+<div id="square"></div>
+<div id="triangle"></div>
+</div>
+
+<div class="artwork artwork2">
+<div id="rectangle"></div>
+</div>
+
+
+<div class="artwork artwork3">
+<div id="triangleBlue"></div>
+</div>
+
+
+<div class="artwork artwork4">
+<div id="trapezoid"></div>
+</div>
+
+
+
+  <script>
+  $( function() {
+    $( ".artwork" ).draggable();
+  } );
+
+
+$( function() {
+    $( "#person" ).draggable();
+  } );
+
+
+
+
+
+/*$(".artwork" ).click(function() {
+    $(this).toggleClass('rotated');
+});
+
+
+/*$(".artwork").rotate({bind:{
+  click: function(){
+    $(this).rotate({
+      angle: 0,
+      animateTo:180
+      })
+    }
+  }
+});*/
+
+var rotation = 0;
+$(".artwork" ).click(function() {
+    rotation += 45;
+    $(this).css({'-webkit-transform' : 'rotate('+ rotation +'deg)',
+                 '-moz-transform' : 'rotate('+ rotation +'deg)',
+                 '-ms-transform' : 'rotate('+ rotation +'deg)',
+                 'transform' : 'rotate('+ rotation +'deg)'});
+});
+
+
+
+
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>
+  
+  
+
+

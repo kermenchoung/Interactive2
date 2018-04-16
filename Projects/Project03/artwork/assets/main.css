@@ -1,0 +1,26 @@
+.artwork{
+  width: 200px;
+	height:200px;
+	background: none;
+  /*border: 1px solid black;*/
+  position:absolute;
+  margin: 20px;
+  
+  
+}
+#square {
+	width: 100px;
+	height: 100px;
+	background: black;
+  position:absolute;
+  top: 0px;
+  left:100px;
+}
+#triangle{
+	width: 0;
+	height: 0;
+	border-top: 120px solid transparent;
+	border-right: 200px solid yellow;
+	border-bottom: 120px solid transparent;
+  position:absolute;
+}

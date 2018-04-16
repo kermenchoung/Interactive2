@@ -1,0 +1,28 @@
+
+html{
+background: url(../assets/gallery_01.png) no-repeat center center fixed;
+background-size: cover;
+}
+
+
+
+.scroll {
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100%;
+    width:auto;
+    white-space: nowrap;
+    display: inline;
+    position:absolute;
+  }
+
+
+	body {
+	  	margin: 0;
+	  }
+
+
+
+
+
