@@ -4,14 +4,6 @@ background: url(../assets/gallery_01.png) no-repeat center center fixed;
 background-size: cover;
 }
 */
-#text{
-
-     font-family:DDT;
-        font-size: 16px;
-      line-height: 1.5em;
-      background-color: grey;  
-      text-align: left;
-    }
 
 
 .scroll {
@@ -21,16 +13,16 @@ background-size: cover;
     height: 100%;
     width:auto;
     white-space: nowrap;
-    display: block;
+    display: inline;
     position:absolute;
   }
 
 .artwork{
   width: 400px;
   height:400px;
-  position: absolute;
+
   border: none;
-  
+  position:relative;
   display: inline-block;
   margin: 20px;
   top: 0px;
@@ -52,42 +44,43 @@ background-size: cover;
 
 
 .artwork1{
-  top: 60px;
+  top: 230px;
   left: 540px;
 }
 
 .artwork2{
-  top: 60px;
-  left: 1440px;
+  top: 230px;
+  left: 1540px;
 }
 
 .artwork3{
-  top: 80px;
-  left: 2940px;
+  top: 230px;
+  left: 2240px;
 }
 .artwork4{
-  top: 40px;
-  left: 4740px;
+  top: 230px;
+  left: 3540px;
 }
 
-.artwork5{
-  top: 100px;
-  left: 5540px;
-}
 #person{
- top:300px;
- left:0px;
+  width: 10%;
+
+  height: 10%;
   border: none;
   position:fixed;
-  top:300px;
+  top:600px;
   left:20px;
+
   margin: 20px;
- cursor: -webkit-grab; cursor: grab;
+ 
+  cursor: -webkit-grab; cursor: grab;
   cursor: -webkit-grabbing; cursor: grabbing;
   cursor: -webkit-click; cursor: click;
-  z-index: 9;
-  opacity: 0.2;
+  z-index: 2;
 }
+
+
+
 #square {
     width: 200px;
     height: 200px;
@@ -124,37 +117,44 @@ background-size: cover;
 
 
 
+/*#trapezoid {
+    border-bottom: 280px solid green;
+    border-left: 50px solid transparent;
+    border-right: 30px solid transparent;
+    height: 0;
+    width: 120px;
+   transform: rotate(-45deg);
+   position:absolute;
+}*/
 
 .artwork4{
-  /*transform: rotate(-46deg);*/
-  
+  transform: rotate(-46deg);
+  border: none;
   
  } 
 
 #green{
   width: 430px;
   height:380px;
-  background:#519973;
+  background:green;
   z-index:2;
   position:absolute;
-  top:183px;
-  left:22px;
-  transform: rotate(-46deg);
-  transform-origin: top left;
-  
-}
+  top:0px;
+  left:0px;
+ /*transform: rotate(-46deg);*/
+  }
 
 #green {clip-path: polygon(7% 0, 40% 0, 59% 100%, 0 98%);}
 
 #red{
   width: 430px;
   height:180px;
-  background:#C42A42;
+  background:red;
   z-index:2;
   position:absolute;
   top:0px;
-  left:20px;
- transform: rotate(-46deg);
+  left:0px;
+ /*transform: rotate(-46deg);*/
   
 }
 
@@ -180,48 +180,6 @@ background-size: cover;
   transform-origin: bottom left;
 
 }
-
-#triangle3{
-  width: 0;
-  height: 0;
-  border-top: 250px solid black;
-  border-right: 250px solid transparent;
-  top:40px;
-  left:100px;
-  position:absolute;
-}
-
-#rectangle3{
-
-  width: 390px;
-  height: 120px;
-  background:white;
-  position:absolute;
-  transform: rotate(-45deg);
-  top:160px;
-  left:58px;
-  
-}
-
-#text{
-   
-
-  width: 400px;
-  height:400px;
-
-  background:lightgrey;
-  position:absolute;
-  display: inline-block;
-  margin: 20px;
-  top: 130px;
-  left: 7540px;
-
-}
-
-
-
-
-
 
 	body {
 	  	margin: 0;

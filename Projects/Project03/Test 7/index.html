@@ -28,8 +28,7 @@
   <div class="scroll">
 
     <img src="assets/gallery_01.png" >
-   <!-- <img src="assets/01.jpg" >
-    <img src="assets/02.jpg" >
+    <!--<img src="assets/02.jpg" >
     <img src="assets/03.jpg" >
     <img src="assets/04.jpg" >
     <img src="assets/05.jpg" >-->
@@ -41,35 +40,19 @@
 </div>
 
 <div class="artwork artwork2">
-  <div id="rectangle1"></div>
-  <div id="rectangle2"></div>
-</div> 
-
-
-<div class="artwork artwork3">
-    <div id="white"></div>
-     <div id="blue"></div>
-    
-  </div> 
-
-
-<div class="artwork artwork4">
-  <div id="green"></div>
-  <div id="red"></div>
-  </div> 
-
-  <div class="artwork artwork5">
-  <div id="triangle3"></div>
-  <div id="rectangle3"></div>
+<div id="rectangle"></div>
 </div>
 
 
+<div class="artwork artwork3">
+<div id="triangleBlue"></div>
+</div>
 
-<div id="text">
 
-  <p>The American artist Ellsworth Kelly (May 31, 1923–December 27, 2015) has passed away at the age of ninety-two. In his abstractions, Kelly distilled details of the world into their simplest form. He explored chance elements in his compositions, eliminated any visible brushwork from his solid color fields, and eventually did away with the traditional square-canvas format altogether. A significant group of Ellsworth Kelly's works will be on view in the new SFMOMA."There was so much to see, and it all looked fantastic to me." —Ellsworth Kelly<p>
-  
-</div> 
+<div class="artwork artwork4">
+<div id="trapezoid"></div>
+</div>
+
 
 
   <script>
@@ -105,11 +88,9 @@ var rotation = 0;
 $(".artwork" ).click(function() {
     rotation += 45;
     $(this).css({'-webkit-transform' : 'rotate('+ rotation +'deg)',
-
                  '-moz-transform' : 'rotate('+ rotation +'deg)',
                  '-ms-transform' : 'rotate('+ rotation +'deg)',
                  'transform' : 'rotate('+ rotation +'deg)'});
-
 });
 
 
