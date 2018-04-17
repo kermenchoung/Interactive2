@@ -7,7 +7,7 @@ background-size: cover;
 #text{
 
      font-family:DDT;
-        font-size: 16px;
+      font-size: 16px;
       line-height: 1.5em;
       background-color: grey;  
       text-align: left;
@@ -100,7 +100,7 @@ background-size: cover;
     width: 0;
     height: 0;
     border-top: 220px solid transparent;
-    border-right: 300px solid yellow;
+    border-right: 300px solid #f4d208;
     border-bottom: 220px solid transparent;
     position:absolute;
 }
@@ -108,14 +108,14 @@ background-size: cover;
 #rectangle1 {
   width: 300px;
   height: 300px;
-  background: red;
+  background: #d5533d;
   position:absolute;
 }
 
 #rectangle2 {
   width: 300px;
   height: 300px;
-  background: red;
+  background: #d5533d;
   position:absolute;
   top:100px;
   left:80px;
@@ -164,7 +164,7 @@ background-size: cover;
 #blue {
   width: 0;
   height: 0;
-  border-bottom: 400px solid blue;
+  border-bottom: 400px solid #1451a8;
   border-left: 200px solid transparent;
   /*transform: rotate(-26deg);*/
   transform: rotate(-117deg);
@@ -184,7 +184,7 @@ background-size: cover;
 #triangle3{
   width: 0;
   height: 0;
-  border-top: 250px solid black;
+  border-top: 250px solid #24231f;
   border-right: 250px solid transparent;
   top:40px;
   left:100px;
@@ -213,8 +213,8 @@ background-size: cover;
   position:absolute;
   display: inline-block;
   margin: 20px;
-  top: 130px;
-  left: 7540px;
+  top: 80px;
+  left: 7140px;
 
 }
 
