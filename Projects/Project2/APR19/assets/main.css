@@ -1,0 +1,360 @@
+body {
+  background-color: lightblue;
+}
+.container3 {
+  width: 4800px;
+  height: 200px;
+  background: none;
+  position: relative;
+}
+
+.letter {
+  width: 85px;
+  height: 107px;
+  background:none;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 0px;
+  transform: scale();
+}
+
+
+.line {
+  position: absolute;
+  height: 1px;
+  left: 0px;
+}
+
+.line1 {
+  background: grey;
+  width: 3px;
+  top: 0px;
+  transform: rotate(25deg);
+}
+
+.line2 {
+  width: 7px;
+  top: 7px;
+  background: black;
+  transform: rotate(-67deg);
+  transform-origin: bottom left;
+}
+
+.line3 {
+  width: 12px;
+  top: 7px;
+  background: black;
+}
+
+.line4 {
+  background: grey;
+  width: 14px;
+  top: 3px;
+  left: 10px;
+  transform: rotate(146deg);
+}
+
+.module{
+  width: 24px;
+  height:8px;
+  /*background:lightblue;*/
+  background:none;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  top: 0px;
+  left: 0px;
+}
+
+.module :hover {
+    background: lightblue;
+}
+
+.armLong .line3 
+  {
+  width: 70px;
+  background: black;
+    
+  }
+.armLong .line4{
+  background: grey;
+  left: 68px;
+}
+
+#L{
+margin-left:300px;
+}
+#K{
+margin-left:20px;
+}
+#O{
+  margin-left:0px;
+  margin-right:80px;
+}
+#P{
+   margin-left:20px;
+}
+
+#U{
+   margin-left:100px;
+}
+
+
+/*Letter EO*/
+.armMed .line3{
+  width: 56px;
+  background: black;
+}
+.armMed .line4{
+  background:grey;
+  left: 54px;
+}
+
+.armShort .line3{ /*U and P*/
+width: 50px;
+ 
+}
+.armShort .line4{
+  background: grey;
+  left: 48px;
+}
+
+.line5{
+  width:32px;
+  height:1px;
+  background:grey;
+  top:0px;
+  left: 23px;
+  }
+
+.Med .module
+{
+left: 54px;
+
+}
+
+
+.Short .module
+{
+left: 47px;
+background:red;
+}
+.Short .line5{
+  background: grey;
+  width:24px;
+}
+.Shorter .module
+  {
+left: 47px;
+}
+#K .Shorter .line5{
+  width:20px;
+}
+#K .Shorter .module{
+  left:43px;
+}
+#K .Shortest4 .line5{
+  width:5px;
+}
+#K .Shortest4 .module{
+  left:28px;
+}
+
+#K .Shortest .line5{
+  width:15px;
+}
+#K .Shortest .module{
+  left:38px;
+}
+
+/*U and H*/
+
+.Long .module{
+ left:64px;
+ 
+}
+.Long .line5{
+  width:44px;
+  background: grey;
+}
+#U .armShort{
+  left:10px;
+}
+
+/*O*/
+
+#O .armMed{
+  left:32px;
+}
+#O .V1{
+  left:15px;
+}
+#O .V2{
+  left:8px;
+}
+#O .V3{
+  left:5px;
+}
+#O .V4{
+  left:3px;
+}
+#O .V5{
+  left:8px;
+}
+#O .V6{
+  left:13px;
+}
+#O .V22{
+  left:77px;
+}
+#O .V33{
+  left:96px;
+}
+#O .V44{
+  left:102px;
+}
+#O .V55{
+  left:106px;
+}
+#O .V66{
+  left:100px;
+}
+#O .V77{
+  left:88px;
+}
+#O .line5{
+  width:54px;
+}
+#O .V2 .line5{
+   width:77px;
+}
+#O .V3 .line5{
+   width:80px;
+}
+#O .V4 .line5{
+   width:83px;
+}
+#O .V5 .line5{
+   width:80px;
+}
+#O .V6 .line5{
+   width:68px;
+}
+
+
+
+/*power wire*/
+.wire{
+  width: 4000px;
+  height:1px;
+  top:20px;
+  background: grey;
+  position: absolute;
+  left: 0px;
+}
+
+/*.wire :hover {
+    background-color: yellow;*/
+
+
+.W2{
+   top: 34px;
+}
+.W3{
+   top: 48px;
+}
+.W4{
+   top: 62px;
+}
+.W5{
+   top: 76px;
+}
+.W6{
+   top: 90px;
+}
+.W7{
+   top: 104px;
+}
+.W8{
+   top: 118px;
+}
+.W10{
+   top: 132px;
+   
+}
+
+
+/*.W1{
+   top: 27px;
+ 
+}
+.W2{
+   top: 41px;
+   
+}
+
+.W3{
+   top: 55px;
+}
+.W4{
+   top: 69px;
+}
+.W5{
+   top: 83px;
+}
+.W6{
+   top: 97px;
+}
+.W7{
+   top: 111px;
+   
+}
+.W8{
+   top: 124px;
+
+}
+.W9{
+   top: 137px;
+}
+
+*/
+
+.armLong{
+  width:78px;
+  /*background:none; */
+  background:lightblue; /*L*/
+}
+
+.armMed{
+   width:68px;
+  background:none;/*O*/
+  background:lightblue;
+}
+
+#K .module{
+   background: none;
+   background:lightblue;
+}
+#P .module{
+   background: none;
+   background:lightblue;
+}
+#U .module{
+   background: none;
+   background:lightblue;
+}
+/* NO LINES*/
+
+/*.letter .line1, .line2, .line4, .line5{
+  background: none;
+}
+ .armLong .line4{
+  background: none;
+}
+.armMed .line4{
+   background: none;
+}*/

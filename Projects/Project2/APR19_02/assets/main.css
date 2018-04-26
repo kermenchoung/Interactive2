@@ -1,0 +1,249 @@
+body {
+  background-color: lightblue;
+}
+.container3 {
+  width: 4800px;
+  height: 200px;
+  background: none;
+  position: relative;
+}
+
+.letter {
+  width: 85px;
+  height: 107px;
+  background:none;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  padding-top: 0px;
+  padding-left: 0px;
+  top: 0px;
+  left: 0px;
+  transform: scale();
+ 
+
+}
+
+/*.letter :hover > div {
+  background:red;
+  /*transform: translate(0, -7px);
+  
+}
+*/
+
+
+
+.line {
+  position: absolute;
+  height: 1px;
+  left: 0px;
+}
+
+.line1 {
+  background: grey;
+  width: 3px;
+  top: 0px;
+  transform: rotate(25deg);
+}
+
+.line2 {
+  width: 7px;
+  top: 7px;
+  background: black;
+  transform: rotate(-67deg);
+  transform-origin: bottom left;
+}
+
+.line3 {
+  width: 12px;
+  top: 7px;
+  background:black;
+}
+
+.line4 {
+  background: grey;
+  width: 14px;
+  top: 3px;
+  left: 10px;
+  transform: rotate(146deg);
+}
+
+.module{
+  width: 24px;
+  height:8px;
+  /*background:lightblue;*/
+  background:none;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  top: 0px;
+  left: 0px;
+
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+
+
+
+/*.module :hover {
+    background: blue;
+  
+}*/
+.powerwire{
+  width:1000px;
+  height: 200px;
+  background:none;
+  position:absolute;
+}
+
+.powerwire:hover > div {
+  transform: translate(0, -7px);
+ 
+  
+}
+
+.armLong .line3 
+  {
+  width: 70px;
+  background: black;
+    
+  }
+.armLong .line4{
+  background: grey;
+  left: 68px;
+}
+
+#L{
+margin-left:300px;
+}
+
+
+
+.wire{
+  width: 1000px;
+  height:1px;
+  top:0px;
+  background: grey;
+  position: absolute;
+  left: 0px;
+}
+
+/*.wire :hover {
+    background-color: yellow;*/
+
+/*.W1{
+   top: 20px;
+}*/
+/*.W2{
+   top: 34px;
+}
+.W3{
+   top: 48px;
+}
+.W4{
+   top: 62px;
+}
+.W5{
+   top: 76px;
+}
+.W6{
+   top: 90px;
+}
+.W7{
+   top: 104px;
+}
+.W8{
+   top: 118px;
+}
+.W10{
+   top: 132px;
+   
+}
+*/
+
+.W1{
+   top: 27px;
+
+ 
+}
+.W2{
+   top: 41px;
+   
+}
+
+.W3{
+   top: 55px;
+}
+.W4{
+   top: 69px;
+}
+.W5{
+   top: 83px;
+}
+.W6{
+   top: 97px;
+}
+.W7{
+   top: 111px;
+   
+}
+.W8{
+   top: 124px;
+
+}
+.W9{
+   top: 137px;
+}
+
+
+
+.armLong{
+  width:78px;
+  /*background:none; */
+  background:none; /*L*/
+}
+
+/* NO LINES*/
+
+.powerwire:hover div.line1 {
+    background: black;
+   
+}
+
+.powerwire:hover div.line2 {
+    background: black;
+}
+.powerwire:hover div.line4 {
+    background: black;
+}
+
+.powerwire:hover div.module {
+    background:lightblue;
+  transform: translate(0, 7px);
+   
+}
+
+.powerwire:hover div.armLong{
+    background:lightblue;
+   transform: translate(0, 6px);
+   
+}
+
+.line1, .line2, .line4 {
+  background: none;
+}
+ .armLong .line4{
+  background: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>
+    Ellsworth Kelly 
+  </title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://use.typekit.net/cov6xbo.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <title>Ellsworth Kelly microsite</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+  <link rel="stylesheet" href="assets/main.css" type="text/css" />
+</head>
+
+
+<body>
+
+<div class="container">
+
+<div class="art">
+
+<div class="wall0"></div>
+<div class="wall1"></div>
+<div class="wall2"></div>
+<div class="wall3"></div>
+<div class="wall4"></div>
+<div class="wall5"></div>
+<div class="wall6"></div>
+<div class="wall7"></div>
+
+<!--<div id="person"> <img src="assets/person.png" ></div>-->
+
+  <div class="scroll"> </div>
+
+<!--<div id="intro"> <img src="assets/intro.png"></div>-->
+<div id="image"> <img src="assets/moma_01.png"></div>
+
+
+
+
+
+<div class="artwork artwork1">
+<div id="square"></div>
+<div id="triangle"></div>
+</div>
+
+<div class="artwork artwork2">
+  <div id="rectangle1"></div>
+  <div id="rectangle2"></div>
+</div> 
+
+
+<!--<div class="artwork artwork3">
+    <div id="white"></div>
+     <div id="blue"></div>
+    
+  </div> -->
+
+  <div class="artwork artwork4">
+    <div id="white"></div>
+     <div id="blue"></div>
+    
+  </div> 
+
+
+ <!--<div class="artwork artwork6"> <img src="assets/redgreen_01.png">
+    <div id="white"></div>
+     <div id="blue"></div>
+    
+  </div> -->
+
+<div class="artwork artwork3">
+  <div id="green"></div>
+  <div id="red"></div>
+  </div> 
+
+  <!--<div class="artwork artwork5">
+  <div id="triangle3"></div>
+  <div id="rectangle3"></div>
+</div>-->
+
+
+
+<!--<div class="clicked"></div>-->
+
+</div> <!-- End of Art-->
+
+<div id="text">
+
+  <p> <h2>Ellsworth Kelly</h2>
+ (May 31, 1923–December 27, 2015). <br>
+ <br>
+  In his abstractions, Kelly distilled details of the world into their simplest form. He explored chance elements in his compositions, eliminated any visible brushwork from his solid color fields, and eventually did away with the traditional square-canvas format altogether.<br> <br></p>
+  
+</div> 
+
+
+<div class="intro">
+
+  <p>The Artist Initiative presents<p><h2>Ellsworth Kelly</h2> <p>gallery at SFMOMA <p> 
+  
+</div> 
+
+
+
+
+</div><!-- Container-->
+
+
+
+
+
+  <script>
+
+  $( function() {
+    $( ".artwork" ).draggable();
+  } );
+
+
+$( function() {
+    $( "#person" ).draggable();
+  } );
+
+
+
+
+
+
+
+
+/*$(".artwork").rotate({bind:{
+  click: function(){
+    $(this).rotate({
+      angle: 0,
+      animateTo:180
+      })
+    }
+  }
+});*/
+
+var rotation = 0;
+$(".artwork" ).click(function() {
+    rotation += 45;
+    $(this).css({'-webkit-transform' : 'rotate('+ rotation +'deg)',
+
+                 '-moz-transform' : 'rotate('+ rotation +'deg)',
+                 '-ms-transform' : 'rotate('+ rotation +'deg)',
+                 'transform' : 'rotate('+ rotation +'deg)'
+               });
+
+});
+
+
+
+
+
+
+/*$(function() {  
+$('.wall1').click(function(){
+    $(this).css('background', 'black');
+
+  });
+});*/
+
+/*space*/
+
+/*$('div').click(function(){
+  $(this).toggleClass('clicked');
+});
+*/
+
+
+/*$(function(){
+
+$('#text').on('click', function(){
+$('.wall6').slideToggle(200);
+
+     });
+});
+*/
+
+
+
+
+
+$('.wall3').click(function() {
+    $(this).toggleClass('scale');
+});
+
+
+$('.wall2').click(function() {
+    $(this).toggleClass('scale1');
+});
+
+
+
+
+
+/*$( document ).mouseover(function() {
+  $( ".wall1" ).toggle( "scale" );
+});*/
+
+
+
+/*$(function(){
+
+$('#wall1').on('click', function(){
+  $('wall2').toggle();
+
+     });
+});
+   */
+
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>
+  
+  
+
+
