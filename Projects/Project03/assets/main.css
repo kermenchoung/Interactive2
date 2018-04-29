@@ -151,7 +151,7 @@ z-index: 1;
 #image:hover{
    transform: scale(1.5);
    transform: translate();
-   clip-path: none;
+   -webkit-clip-path: none;
 
 }
 
