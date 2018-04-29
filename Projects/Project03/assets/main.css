@@ -8,7 +8,7 @@ background-size: cover;
 html{
 }
 .container{
-  background-color: white;
+  background-color: black;
  /*background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);*/
  /* background: -webkit-radial-gradient(center, ellipse cover, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); */
  /*background: -webkit-linear-gradient(top, rgba(188,188,188,1) 0%,rgba(14,14,14,1) 100%); */
@@ -41,7 +41,8 @@ h3{
 .wall0{
 width:313px;
 height:418px;
-background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+/*background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);*/
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 100%,rgba(204,204,204,1) 0%); 
 /*background: -webkit-linear-gradient(top, rgba(238,238,238,1) 100%,rgba(204,204,204,1) 0%);*/
 position:absolute;
 display: inline;
@@ -54,8 +55,8 @@ z-index: 1;
 .wall1{
 width:600px;
 height:418px;
-background: -webkit-linear-gradient(top, rgba(181,189,200,1) 100%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 0%);
-/*background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); */
+/*background: -webkit-linear-gradient(top, rgba(181,189,200,1) 100%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 0%);*/
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); 
 position:absolute;
 display: inline;
 top:100px;
@@ -73,7 +74,7 @@ box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.5);
   transition-timing-function: ease-out;
 }
 
-.wall1 {clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);}
+.wall1 {-webkit-clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);}
 
 /*.wall1:hover{
    background: #519973;
@@ -87,7 +88,7 @@ box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.5);
 .wall2{
 width:600px;
 height:250px;
-background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); 
 position:absolute;
 display: inline-block;
 top:184px;
@@ -110,7 +111,7 @@ z-index: 5;
 .wall3{
 width:600px;
 height:418px;
-background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); 
 position:absolute;
 display: inline-block;
 top:100px;
@@ -122,7 +123,7 @@ z-index: 1;
 /*transform: rotate(180deg);*/
 }
 
-.wall3 {clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%);}
+.wall3 {-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%);}
 
 #image{
   width:600px;
@@ -153,7 +154,7 @@ z-index: 1;
 .wall4{
 width:800px;
 height:418px;
-background: -webkit-linear-gradient(top, rgba(181,189,200,1) 100%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 0%);
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 100%,rgba(204,204,204,1) 0%); 
 position:absolute;
 display: inline-block;
 top:100px;
@@ -164,7 +165,7 @@ z-index: 1;
 .wall5{
 width:600px;
 height:418px;
-background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); 
 position:absolute;
 display: inline-block;
 top:100px;
@@ -172,12 +173,12 @@ left:2910px;
 z-index: 1;
 }
 
-.wall5 {clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);}
+.wall5 {-webkit-clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);}
 
 .wall6{
 width:600px;
 height:250px;
-background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); 
 position:absolute;
 display: inline-block;
 top:184px;
@@ -188,7 +189,7 @@ z-index: 1;
 .wall7{
 width:313px;
 height:418px;
-background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); 
 position:absolute;
 display: inline;
 top:100px;
@@ -225,7 +226,6 @@ z-index: 1;
   background:none;
   position:absolute;
   display: inline-block;
-
   font-family:Abel Pro;
   font-size: 1em; /* 14px/16=0.875em */
   line-height: 1.5em;
