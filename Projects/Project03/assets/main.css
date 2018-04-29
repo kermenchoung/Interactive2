@@ -8,12 +8,12 @@ background-size: cover;
 html{
 }
 .container{
-  background-color: black;
+  background-color: white;
  /*background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);*/
  /* background: -webkit-radial-gradient(center, ellipse cover, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); */
  /*background: -webkit-linear-gradient(top, rgba(188,188,188,1) 0%,rgba(14,14,14,1) 100%); */
-  position: absolute;
- overflow-y: hidden;
+position: absolute;
+overflow-y: hidden;
   width:5000px;
   height:100%;
 
