@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>
+    Ellsworth Kelly 
+  </title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+ <!-- <script src="https://use.typekit.net/cov6xbo.js"></script>-->
+
+
+<!--<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
+
+  <title>Ellsworth Kelly microsite</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+  <link rel="stylesheet" href="assets/main.css"/>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Abel'>
+
+  <script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
+  <script type="text/javascript" src="js/jquery.scrollmagic.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
+
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<div class="cube"></div>
+
+<div class="art">
+
+<div class="wall0"></div>
+<div class="wall1"></div>
+<div class="wall2"></div>
+<div class="wall3"></div>
+<div class="wall4"></div>
+<div class="wall5"></div>
+<div class="wall6"></div>
+<div class="wall7"></div>
+
+<div id="person"> <img src="assets/person.png" ></div>
+
+  <div class="scroll"> </div>
+
+<!--<div id="intro"> <img src="assets/intro.png"></div>-->
+<div id="image"> <img src="assets/moma_01.png"></div>
+
+<!--<div id="link"><a href="file:///Interactive2/Projects/Project03/TestAPR24inclass/index.html"><p>EXIT</p></a></div>-->
+
+
+
+
+<div class="artwork artwork1"><img src="assets/images/black.png"></div>
+<div class="artwork artwork2"><img src="assets/images/coral.png"></div>
+<div class="artwork artwork3"><img src="assets/images/green.png"></div>
+<div class="artwork artwork4"><img src="assets/images/white.png"></div>
+
+
+
+
+
+<!--<div class="clicked"></div>-->
+
+</div> <!-- End of Art-->
+
+<div id="text">
+
+  <p> <h2>Ellsworth Kelly</h2>
+ (May 31, 1923–December 27, 2015). <br>
+ <br>
+  In his abstractions, Kelly distilled details of the world into their simplest form. He explored chance elements in his compositions, eliminated any visible brushwork from his solid color fields, and eventually did away with the traditional square-canvas format altogether.<br> <br></p>
+  
+</div> 
+
+
+<div class="intro">
+
+  <p>The Artist Initiative presents<p><h2>Ellsworth Kelly</h2> <p>gallery at SFMOMA <p> 
+  
+</div> 
+
+<div class="title title1">
+<p><i>Yellow Relief with Black</i>, 1993<p>
+</div> 
+
+<div class="title title2">
+<p><i>Red on Red,</i> 2001<p>
+</div> 
+
+<div class="title title3">
+<p><i>Red Green,</i> 1978<p>
+</div> 
+
+<div class="title title4">
+<p><i>Blue White,</i> 1968<p>
+</div> 
+
+</div><!-- Container-->
+
+ <script>
+
+  $( function() {
+    $( ".artwork" ).draggable();
+  } );
+
+
+
+
+/*$(".artwork").rotate({bind:{
+  click: function(){
+    $(this).rotate({
+      angle: 0,
+      animateTo:180
+      })
+    }
+  }
+});*/
+
+var rotation = 0;
+$(".artwork" ).click(function() {
+    rotation += 45;
+    $(this).css({'-webkit-transform' : 'rotate('+ rotation +'deg)',
+
+                 '-moz-transform' : 'rotate('+ rotation +'deg)',
+                 '-ms-transform' : 'rotate('+ rotation +'deg)',
+                 'transform' : 'rotate('+ rotation +'deg)'
+               });
+
+});
+
+
+/*$(function() {  
+$('.wall1').click(function(){
+    $(this).css('background', 'black');
+
+  });
+});*/
+
+/*space*/
+
+/*$('div').click(function(){
+  $(this).toggleClass('clicked');
+});
+*/
+
+
+/*$(function(){
+
+$('#text').on('click', function(){
+$('.wall6').slideToggle(200);
+
+     });
+});
+*/
+
+
+$('.wall2').click(function() {
+    $(this).toggleClass('scale2');
+});
+
+$('.wall3').click(function() {
+    $(this).toggleClass('scale3');
+});
+
+$('.wall4').click(function() {
+    $(this).toggleClass('scale4');
+});
+
+$('.wall5').click(function() {
+    $(this).toggleClass('scale5');
+});
+
+<!--MAGIC SCROLLER-->
+
+// init controller
+var controller = new ScrollMagic();
+
+// assign handler "scene" and add it to Controller
+var scene = new ScrollScene({duration: 100})
+                .addTo(controller);
+
+// add multiple scenes at once
+var scene2;
+controller.addScene([
+    scene, // add above defined scene
+    scene2 = new ScrollScene({duration: 200}), // add scene and assign handler "scene2"
+    new ScrollScene({offset: 20}) // add anonymous scene
+]);
+
+
+
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>
+  
+  
+
+
