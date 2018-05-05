@@ -1,16 +1,15 @@
 body {
-
- background-color: none;
- width:100%;
- height: 100%;
- overflow-y:hidden;
-
-
+  width:12000px;height: 
+  height:1500%;
+  top:0px;
+  left:0px;
+  background-color: none;
+  position: absolute;
 
 }
 .canvas {
   width: 12000px;
-  height: 1000px;
+  height: 1500px;
   background: none;
   position: relative;
   top:0px;
@@ -3538,14 +3537,12 @@ left:560px;
 
 /*O*//*O*//*O*//*O*//*O*//*O*//*O*/
 .container4 .O1{
-
   width:85px;
   top:27px;
   left:716px;
 
 }
 .container4 .O2{
-  
   width:50px;
   top:41px;
   left:733px;
@@ -3587,61 +3584,6 @@ left:560px;
   left:717px;
   
 }
-/*O*//*O*//*O*//*O*//*O*//*O*//*O*//*O*//*O*//*O*//*O*//*O*//*O*//*O*//*O*//*O*/
-
-
-.container4 .one{
-
-  width:65px;
-  top:27px;
-  left:866px;
-
-}
-.container4 .two{
-
-  width:49px;
-  top:41px;
-  left:882px;
- 
-}
-.container4 .three{
-  width:37px;
-  top:55px;
-  left:894px;
-  
-}
-
-.container4 .four{
-  width:34px;
-  top:69px;
-  left:897px;
-  
-}
-.container4 .five{
-  width:32px;
-  top:83px;
-  left:899px;
- 
-}
-.container4 .six{
-  width:33px;
-  top:97px;
-  left:898px;
-  
- }
-.container4 .seven{
-  width:41px;
-  top:111px;
-  left:891px;
-  
-}
-.container4 .eight{
-  width:66px;
-  top:125px;
-  left:865px;
-  
-}
-
 
 /*K*//*K*//*K*//*K*//*K*//*K*/
 .container4 .K1{
@@ -3755,7 +3697,7 @@ left:560px;
 }
 /*P*//*P*//*P*//*P*//*P*//*P*//*P*//*P*/
 .container4 .P1{
-  width:1000px;
+   width:1000px;
   top:27px;
   left:1282px;
  
