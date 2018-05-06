@@ -25,7 +25,7 @@ body {
   background: none;
 
   z-index: 2;
-transform: scale(1.5, 1,5);
+ transform: scale(1.5, 1,5);
   /*transform: rotate(-90deg);*/
  
 }
@@ -43,11 +43,10 @@ transform: scale(1.5, 1,5);
  border-radius: 0.4em;
 
 }
-  
 #trapezoid_tape {
   width:63px;
   height: 57px;
-background: purple;
+  background: purple;
  /* border-top: 6px solid purple;
   border-bottom: 6px solid purple;
   border-left: 6px solid green;
@@ -66,23 +65,25 @@ background: purple;
   width:40px;
   height:45px;
   border-radius: 25px;
-  background: #e7d8c5;
+
   position: absolute;
-margin: 0px auto;
+  margin: 0px auto;
   top: 20px ;
   left:85px;
   transform: rotate(90deg);
+  z-index: 5;
   
   
 }
 
 #circledown{
+
 width:35px;
   height:30px;
   border-radius: 100px;
   background: #e7d8c5;
   position: absolute;
-margin: 0px auto;
+ margin: 0px auto;
   top: 79px ;
   left:73px;
   z-index:4;
@@ -94,6 +95,7 @@ margin: 0px auto;
 
 
 #moon {
+
   width: 25px;
   height: 30px;
   border-radius: 20%;
@@ -107,14 +109,15 @@ margin: 0px auto;
  
 }
 #moon1 {
+  background-color:#e7d8c5;
   width: 40px;
   height:60px;
   border-radius: 60%;
   box-shadow: 10px 15px 0 0 purple;
   position: absolute;
-margin: 0px auto;
+  margin: 0px auto;
   top: 1px ;
-  left:91px;
+  left:90px;
   transform: rotate(57deg);
 }
 #moon2 {
@@ -130,40 +133,23 @@ margin: 0px auto;
   z-index:4;
 
  
+}
+
+#moon3 {
+  width: 15px;
+  height: 10px;
+  border-radius: 20%;
+  box-shadow: 10px 15px 0 0  #e7d8c5;
+  position: absolute;
+margin: 0px auto;
+  top:20px ;
+  left:116px;
+  transform: rotate(10deg);
+  z-index:4;
+
  
 }
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .buquet{
   
