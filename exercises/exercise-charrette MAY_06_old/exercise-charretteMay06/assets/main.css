@@ -1,0 +1,67 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color: red;
+}
+
+/* container */
+
+.container {
+
+	position: relative;
+	width:100%;
+}
+
+/* items */
+
+.item {
+	height: 300px;
+	width: 33%;
+	background: black;
+	color: yellow;
+	display: inline-block;
+	overflow: hidden;
+    margin:2px;
+	float: left; 
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+.number{
+	font-size: 20px;
+	text-align: right;
+ 	padding: 20px;
+    margin: 0;
+    z-index: 3;
+}
+/* example buttons */
+
+#button-1:hover {
+	transform:  scale(0.2);
+	/*opacity: .3;*/
+}
+
+#button-1:active {
+	background: red;
+	opacity: 1;
+}
+
+/* example buttons */
+
+#button-2::after {
+	
+	color: white;
+}
+
+
+#button-2:hover::after {
+	
+	color: blue;
+}

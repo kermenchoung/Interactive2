@@ -1,0 +1,97 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color: black;
+	font-family: 'Abel';
+}
+
+/* container */
+
+.container {
+
+	position: relative;
+	height:100%;
+	width:100%;
+}
+
+/* items */
+
+.item {
+	height: 120px;
+	width: 120px;
+	background: white;
+	color: black;
+	display: inline-block;
+	overflow: hidden;
+    margin:15px;
+	float: left; 
+	position: relative;
+	top:0;
+	left: 0;
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+.circle {
+	background-color: black;
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+    outline: none;
+    position: absolute;
+    top:35px;
+    left:36px;
+    z-index: 5;
+}
+
+.number{
+	font-size: 10px;
+	text-align: right;
+ 	padding: 10px;
+    margin: 0;
+    z-index: 3;
+}
+/* example buttons */
+
+/*.circle1:hover {
+	transform:  scale(0.2);
+	background-color: red;
+}
+
+#button-1:hover{
+background-color: red;
+}
+
+#button-2:hover{
+	transform: rotate(45deg);
+}
+
+
+#button-2:hover::after {
+	
+	color: blue;
+}
+*/
+
+
+.scale2{
+   background: black;
+   transform: scale(2);
+
+  
+  
+}
+
+
+
+
+
+
+
+
